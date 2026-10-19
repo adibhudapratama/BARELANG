@@ -16,7 +16,7 @@
 
 ---
 
-![Cargo-Lift Robot](assets/images/fig_hero_robot.png)
+![Cargo-Lift Robot](assets/image/fig_hero_robot.png)
 *Figure 1. Cargo-Lift robot in its home configuration: mecanum base, twin scissor lift, main conveyor and the open portal transfer head (1195 x 791 x 805 mm).*
 
 </div>
