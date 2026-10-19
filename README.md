@@ -44,12 +44,12 @@ Narrow-body aircraft have lower-deck bulk holds with a very low ceiling (about *
 
 | Hold scene with 30 bags | Open-portal assemblies |
 | :---: | :---: |
-| ![Cargo hold scene](assets/images/fig_cargo_hold_scene.jpg) | ![Assemblies](assets/images/fig_assemblies.png) |
+| ![Cargo hold scene](assets/image/fig_cargo_hold_scene.jpg) | ![Assemblies](asset/images/fig_assemblies.png) |
 | *Robot docked at the side door of the generic hold, with the external feeder and the 30-bag storage bays.* | *CAD key: chassis, wheel modules, scissor module, conveyor deck, open portal, hanging jaws and outboard actuators.* |
 
 | End-effector actuation | Hold plan view |
 | :---: | :---: |
-| ![End effector](assets/images/fig_end_effector.png) | ![Hold plan](assets/images/fig_hold_plan.png) |
+| ![End effector](assets/image/fig_end_effector.png) | ![Hold plan](assets/image/fig_hold_plan.png) |
 | *Nose belt, jaws, micro-lift and retractable support blade (A10 to A14).* | *4.50 x 2.20 m floor: reserved turning bay, active bag bays (1 + 2) and eight 3-bag footprints.* |
 
 ---
