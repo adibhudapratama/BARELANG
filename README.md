@@ -275,8 +275,6 @@ bash run_gazebo.sh --speed 10      # about 110 s at a real-time factor near 1
 
 ## 🔋 Battery & Endurance
 
-![Endurance](assets/images/fig_endurance_chart.png)
-
 | Quantity | Reference value |
 | :--- | :--- |
 | Nominal stored energy | 48 V x 30 Ah = 1440 Wh |
