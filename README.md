@@ -3,6 +3,7 @@
 <div align="center">
 
 [![Gazebo](https://img.shields.io/badge/Gazebo-Harmonic%20(gz--sim8)-orange?logo=gazebo)](https://gazebosim.org/docs/harmonic/install_ubuntu/)
+[![ROS 2](https://img.shields.io/badge/ROS%202-Jazzy%20Jalisco-blue?logo=ros)](https://docs.ros.org/en/jazzy/)
 [![CAD](https://img.shields.io/badge/CAD-STEP%20AP214%20(mm)-informational)](#-cad--media-deliverables)
 [![Status](https://img.shields.io/badge/Status-Detailed%20Concept%20Design-yellow)](#-design-checks--what-is-and-is-not-verified)
 [![Hackathon](https://img.shields.io/badge/Barelang-Hackathon-red)](#-team-information)
