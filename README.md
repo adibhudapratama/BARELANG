@@ -336,7 +336,7 @@ STEP units are millimetres. Each file is a multibody AP214 solid model with no n
 
 **Team Name:** BARELANG  
 **Affiliation:** Batam State Polytechnic (Politeknik Negeri Batam), Indonesia  
-**Submission Category:** SUTD ROAR Lab Open Hackathon 2026 (Item No. 3_Report_BARELANG_Fajri.PDF)
+**Submission Category:** SUTD ROAR Lab Open Hackathon 2026 (Item No. 3_Report_BARELANG_Adib.PDF)
 
 | Role | Name | Email |
 | :--- | :--- | :--- |
