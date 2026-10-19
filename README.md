@@ -51,16 +51,6 @@ Narrow-body aircraft have lower-deck bulk holds with a very low ceiling (about *
 | ![End effector](assets/images/fig_end_effector.png) | ![Hold plan](assets/images/fig_hold_plan.png) |
 | *Nose belt, jaws, micro-lift and retractable support blade (A10 to A14).* | *4.50 x 2.20 m floor: reserved turning bay, active bag bays (1 + 2) and eight 3-bag footprints.* |
 
-**Presentation video:** [`media/Cargo_Robot_Simulation_120s.mp4`](media/Cargo_Robot_Simulation_120s.mp4) — 1920 x 1080, 24 fps, exactly 120 s, no text or audio. It is a CAD kinematic rendering of the same trajectory used by the Gazebo replay, **not** a Gazebo screen recording.
-
-| Video time | Scenario content |
-| :--- | :--- |
-| 00:00 – 00:05 | Enter the compartment; prepare the side-door transfer |
-| 00:05 – 00:52 | Receive and place four bags |
-| 00:52 – 00:57 | Show the filled designated storage bays |
-| 00:57 – 01:55 | Unload the four active bags in top-down order |
-| 01:55 – 02:00 | Clear the door, restore the service platform and exit |
-
 ---
 
 ## ✈️ The Cargo-Hold Challenge
