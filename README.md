@@ -16,7 +16,7 @@
 
 ---
 
-![Cargo-Lift Robot](assets/images/fig_hero_robot.png)
+![Cargo-Lift Robot](assets/image/fig_hero_robot.png)
 *Figure 1. Cargo-Lift robot in its home configuration: mecanum base, twin scissor lift, main conveyor and the open portal transfer head (1195 x 791 x 805 mm).*
 
 </div>
@@ -44,12 +44,12 @@ Narrow-body aircraft have lower-deck bulk holds with a very low ceiling (about *
 
 | Hold scene with 30 bags | Open-portal assemblies |
 | :---: | :---: |
-| ![Cargo hold scene](assets/images/fig_cargo_hold_scene.jpg) | ![Assemblies](assets/images/fig_assemblies.png) |
+| ![Cargo hold scene](assets/image/fig_cargo_hold_scene.png) | ![Assemblies](assets/image/fig_assemblies.png) |
 | *Robot docked at the side door of the generic hold, with the external feeder and the 30-bag storage bays.* | *CAD key: chassis, wheel modules, scissor module, conveyor deck, open portal, hanging jaws and outboard actuators.* |
 
 | End-effector actuation | Hold plan view |
 | :---: | :---: |
-| ![End effector](assets/images/fig_end_effector.png) | ![Hold plan](assets/images/fig_hold_plan.png) |
+| ![End effector](assets/image/fig_end_effector.png) | ![Hold plan](assets/image/fig_hold_plan.png) |
 | *Nose belt, jaws, micro-lift and retractable support blade (A10 to A14).* | *4.50 x 2.20 m floor: reserved turning bay, active bag bays (1 + 2) and eight 3-bag footprints.* |
 
 ---
@@ -275,8 +275,6 @@ bash run_gazebo.sh --speed 10      # about 110 s at a real-time factor near 1
 
 ## 🔋 Battery & Endurance
 
-![Endurance](assets/images/fig_endurance_chart.png)
-
 | Quantity | Reference value |
 | :--- | :--- |
 | Nominal stored energy | 48 V x 30 Ah = 1440 Wh |
@@ -302,7 +300,7 @@ Endurance is a design estimate from assumed duty-cycle power, not a discharge te
 | `cad/Aircraft_Cargo_Hold.step` | Empty cargo hold with the side door open |
 | `cad/Robot_and_Cargo_Hold.step` | Robot + complete hold + 30 reference bags (static snapshot) |
 | `cad/Robot_and_Cargo_Hold_Cutaway.step` | Inspection version with selected enclosure panels removed |
-| `media/Cargo_Robot_Simulation_120s.mp4` | Clean 120 s presentation video |
+| `animation/Cargo_Robot_Simulation_120s.mp4` | Clean 120 s presentation video |
 | `docs/Cargo_Robot_Technical_Report.pdf` | Self-contained English design and technical report |
 
 STEP units are millimetres. Each file is a multibody AP214 solid model with no native SolidWorks feature history or motion mates. URDF/SDF and mesh units in the Gazebo package are metres.
