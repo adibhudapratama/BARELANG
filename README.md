@@ -300,7 +300,7 @@ Endurance is a design estimate from assumed duty-cycle power, not a discharge te
 | `cad/Aircraft_Cargo_Hold.step` | Empty cargo hold with the side door open |
 | `cad/Robot_and_Cargo_Hold.step` | Robot + complete hold + 30 reference bags (static snapshot) |
 | `cad/Robot_and_Cargo_Hold_Cutaway.step` | Inspection version with selected enclosure panels removed |
-| `media/Cargo_Robot_Simulation_120s.mp4` | Clean 120 s presentation video |
+| `animation/Cargo_Robot_Simulation_120s.mp4` | Clean 120 s presentation video |
 | `docs/Cargo_Robot_Technical_Report.pdf` | Self-contained English design and technical report |
 
 STEP units are millimetres. Each file is a multibody AP214 solid model with no native SolidWorks feature history or motion mates. URDF/SDF and mesh units in the Gazebo package are metres.
