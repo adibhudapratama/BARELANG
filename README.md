@@ -310,23 +310,39 @@ STEP units are millimetres. Each file is a multibody AP214 solid model with no n
 ## 📂 Repository Structure
 
 ```
-[repo-name]/
+BARELANG/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
 ├── assets/
-│   └── images/                       # Renders used in this README
-├── cad/                              # STEP models (robot, hold, combined, cutaway)
-├── media/
-│   └── Cargo_Robot_Simulation_120s.mp4
+│   ├── images/
+│   │   ├── fig_hero_robot.png
+│   │   ├── fig_assemblies.png
+│   │   ├── fig_cargo_hold_scene.png
+│   │   ├── fig_end_effector.png
+│   │   └── fig_hold_plan.png
+│   └── animation/
+│       ├── Cargo_Robot_Simulation_120s.mp4
+│       ├── jalur_koper_v5.mp4
+│       └── loading_unloading.mp4
+├── cad/
+│   ├── assemblies/
+│   │   ├── Robot_and_Cargo_Hold.step
+│   │   └── Robot_and_Cargo_Hold_Cutaway.step
+│   │   ├── robot/
+│   │   └── Cargo_Lift_Robot.step
+│   │   └── cargo_hold/
+│       └── Aircraft_Cargo_Hold.step
+├── simulation/
+│   └── cargo_hold_v6/
+│       ├── install_dependencies.sh
+│       ├── run_gazebo.sh
+│       └── README.md
 ├── docs/
 │   ├── Cargo_Robot_Technical_Report.pdf
-│   └── Hackathon_Presentation.pdf    # 8-slide submission deck
-├── simulation/
-│   └── cargo_hold_v6/                # Gazebo Harmonic replay package
-│       ├── install_dependencies.sh
-│       └── run_gazebo.sh
-└── tools/                            # Report / video / CAD export scripts (optional)
+│   └── Hackathon_Presentation.pdf
+└── tools/
+    └── README.md
 ```
 
 ---
