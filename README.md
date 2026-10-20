@@ -223,7 +223,7 @@ The Gazebo package replays the original 1101-second trajectory (196 keyframes) i
 
 - **OS:** Ubuntu 24.04
 - **Simulator:** Gazebo Harmonic (gz-sim8). ROS 2 is **not** required for the main mode
-- **Package:** `Cargo_Hold_v6_Gazebo_Full.zip`, extracted to `simulation/cargo_hold_v6/`
+- **Package:** `Cargo_Hold_v6.zip`, extracted to `simulation/cargo_hold_v6/`
 
 ### 2. Run
 
