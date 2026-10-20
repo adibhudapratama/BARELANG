@@ -1,0 +1,19 @@
+{
+  "name": "cargo-hold-v6-renderer",
+  "version": "6.0.0",
+  "private": true,
+  "scripts": {
+    "build": "esbuild app.js --bundle --minify --outfile=bundle.js",
+    "capture:overview": "node capture.cjs overview full",
+    "capture:interior": "node capture.cjs interior full",
+    "capture:tracking": "node capture.cjs tracking full"
+  },
+  "dependencies": {
+    "three": "0.180.0",
+    "urdf-loader": "0.12.6"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.11",
+    "playwright": "1.62.1"
+  }
+}

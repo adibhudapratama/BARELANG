@@ -1,0 +1,8 @@
+Internal ctest changing into directory: /workspace/scratch/29991369b3c4/output/cargo_hold_v6/build
+Test project /workspace/scratch/29991369b3c4/output/cargo_hold_v6/build
+    Start 1: replay_core
+1/1 Test #1: replay_core ......................   Passed    2.82 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   2.82 sec

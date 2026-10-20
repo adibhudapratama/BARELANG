@@ -1,0 +1,94 @@
+{
+  "nominal_voltage_V": 48.0,
+  "capacity_Ah": 30.0,
+  "nominal_Wh": 1440.0,
+  "capacity_derate": 0.8,
+  "distribution_efficiency": 0.94,
+  "reserve_soc": 0.15,
+  "continuous_bms_requirement_A": 125,
+  "peak_bms_requirement_A": 200,
+  "chemistry": "Reference industrial 48 V pack; final cell/BMS SKU and physical fit pending",
+  "power_method": "Assumed total DC-bus power per phase, including controller/sensors; external conveyor excluded",
+  "cycle_seconds": 124,
+  "cycle_bus_Wh": 14.055555555555555,
+  "cycle_average_bus_W": 408.06451612903226,
+  "phase_budget": [
+    {
+      "phase": "Terima dari samping - portal terbuka",
+      "seconds": 12,
+      "bus_W": 200,
+      "bus_Wh": 0.6666666666666666
+    },
+    {
+      "phase": "Keluar docking",
+      "seconds": 6,
+      "bus_W": 320,
+      "bus_Wh": 0.5333333333333333
+    },
+    {
+      "phase": "Putar berbeban",
+      "seconds": 11,
+      "bus_W": 480,
+      "bus_Wh": 1.4666666666666666
+    },
+    {
+      "phase": "Perjalanan berbeban",
+      "seconds": 21,
+      "bus_W": 400,
+      "bus_Wh": 2.3333333333333335
+    },
+    {
+      "phase": "Lifter dan penyusunan",
+      "seconds": 32,
+      "bus_W": 700,
+      "bus_Wh": 6.222222222222222
+    },
+    {
+      "phase": "Kembali kosong",
+      "seconds": 11,
+      "bus_W": 300,
+      "bus_Wh": 0.9166666666666666
+    },
+    {
+      "phase": "Putar kosong",
+      "seconds": 11,
+      "bus_W": 340,
+      "bus_Wh": 1.038888888888889
+    },
+    {
+      "phase": "Masuk docking",
+      "seconds": 6,
+      "bus_W": 270,
+      "bus_Wh": 0.45
+    },
+    {
+      "phase": "Tunggu/verifikasi bukaan",
+      "seconds": 14,
+      "bus_W": 110,
+      "bus_Wh": 0.42777777777777776
+    }
+  ],
+  "usable_operating_bus_Wh": 920.4479999999999,
+  "scenarios": [
+    {
+      "name": "Ringan",
+      "average_bus_W": 270,
+      "runtime_hours": 3.409066666666666
+    },
+    {
+      "name": "Siklus referensi",
+      "average_bus_W": 408.06451612903226,
+      "runtime_hours": 2.2556433201581023
+    },
+    {
+      "name": "Berat",
+      "average_bus_W": 650,
+      "runtime_hours": 1.416073846153846
+    }
+  ],
+  "reference_runtime_hours": 2.2556433201581023,
+  "aged_80percent_runtime_hours": 1.804514656126482,
+  "reference_cycles_before_reserve": 65,
+  "charge_estimate_hours_10A": 2.88,
+  "measurement_status": "Engineering estimate; not Gazebo motor-current integration or physical battery test"
+}

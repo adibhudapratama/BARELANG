@@ -1,0 +1,38 @@
+{
+  "revision": 5,
+  "checks": [
+    {
+      "name": "receive_and_reverse_800x500x320_with_pose_allowance",
+      "passed": true,
+      "samples": 151,
+      "collisions": {},
+      "allowance_y_mm": 10,
+      "allowance_top_mm": 10,
+      "contact_skin_mm": 2,
+      "reverse_uses_identical_swept_volume": true
+    },
+    {
+      "name": "rated_gripped_bag_extension_and_lowering",
+      "passed": true,
+      "samples": 54,
+      "collisions": {}
+    },
+    {
+      "name": "roof_envelope_at_lift_stop",
+      "passed": true,
+      "samples": 1,
+      "collisions": [],
+      "highest_point_m": 1.1500000000000001,
+      "hold_roof_m": 1.2,
+      "margin_mm": 49.99999999999982
+    }
+  ],
+  "passed": 3,
+  "failed": [],
+  "method": "Every detailed CAD part transformed AABB; conservative overlap rejection; stated sample grid",
+  "limitations": [
+    "Discrete sampling, not a continuous mathematical swept-volume proof",
+    "Rigid aligned bag only; loose straps and soft bag deformation not modelled",
+    "Does not validate all robot self-collisions, aircraft-specific structure or prototype safety"
+  ]
+}

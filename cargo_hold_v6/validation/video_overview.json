@@ -1,0 +1,15 @@
+{
+  "file": "01_Overview_HD.mp4",
+  "native_frames": 662,
+  "native_render_fps": 6,
+  "output_fps": 24,
+  "temporal_blend_interpolation": true,
+  "width": 1920,
+  "height": 1080,
+  "duration_s": 110.375,
+  "bytes": 8401358,
+  "source": "Native CAD rendering, same kinematic scenario as Gazebo replay; NOT Gazebo capture",
+  "decoded_without_error": true,
+  "output_frame_count": 2649,
+  "sha256": "17a30b6c8b4824baf009953afc31ed3804f337ff82d21dc05f41808532448cbe"
+}

@@ -1,0 +1,15 @@
+{
+  "gazebo_version": "8.15.0 Harmonic",
+  "compiler": "GCC 13.3 C++17",
+  "plugins_compiled": [
+    "ScenarioReplay",
+    "CargoHandling"
+  ],
+  "sdf_created_ecm_executed": true,
+  "gazebo_server_completed": false,
+  "gazebo_gui_tested": false,
+  "blocked_reason": "Environment denies network interface enumeration / ZeroMQ IP resolver socket operation",
+  "video_is_gazebo_recording": false,
+  "physics_validated": false,
+  "solidworks_tested": false
+}

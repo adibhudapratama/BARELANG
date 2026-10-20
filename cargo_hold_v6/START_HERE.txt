@@ -1,0 +1,19 @@
+CARGO-LIFT v6 — MULAI DI SINI
+
+1. Target: Ubuntu 24.04 + Gazebo Harmonic (gz-sim8).
+2. Ekstrak seluruh paket, lalu buka terminal di folder cargo_hold_v6.
+3. Sekali saja: sudo bash install_dependencies.sh
+4. Jalankan: bash run_gazebo.sh --speed 10
+5. Tampilan bagasi utuh: bash run_gazebo.sh --full --speed 1
+
+Video MP4 ada di video/. CAD STEP bagasi ada di cad/.
+Panduan lengkap, struktur program, dan batas pengujian: README_ID.md.
+
+Isi skenario: robot masuk, memuat 4 koper, membongkar 4 koper dari
+kondisi 30 koper tersusun, lalu keluar. 26 koper latar tetap di bagasi.
+Area putar dan jalur kerja sengaja dipertahankan.
+
+Mode utama adalah replay kinematik. Video adalah render CAD HD dari
+lintasan yang sama, bukan rekaman Gazebo atau bukti simulasi fisika.
+Plugin dikompilasi dan inti diuji pada Gazebo EntityComponentManager;
+server/GUI tidak selesai diuji karena pembatasan socket lingkungan.

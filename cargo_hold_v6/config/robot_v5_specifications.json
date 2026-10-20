@@ -1,0 +1,296 @@
+{
+  "name": "CARGO-LIFT v5 open passage",
+  "revision": "2026-10-15",
+  "payload_kg": 32,
+  "empty_mass_kg": 196.0,
+  "bag_max_m": [
+    0.8,
+    0.5,
+    0.32
+  ],
+  "hold_height_m": 1.2,
+  "ceiling_margin_m": 0.05,
+  "base_m": [
+    0.98,
+    0.66
+  ],
+  "wheel_radius_m": 0.075,
+  "wheel_centres_m": [
+    [
+      0.36,
+      0.29
+    ],
+    [
+      0.36,
+      -0.29
+    ],
+    [
+      -0.36,
+      0.29
+    ],
+    [
+      -0.36,
+      -0.29
+    ]
+  ],
+  "wheel_rollers_each": 12,
+  "roller_angle_deg": 45,
+  "belt_home_m": 0.366,
+  "belt_max_m": 0.676,
+  "scissor_bar_m": 0.65,
+  "scissor_height_m": [
+    0.12,
+    0.43
+  ],
+  "lift_travel_m": 0.31,
+  "nose_vertical_travel_m": 0.345,
+  "support_plane_min_m": 0.021,
+  "extension_m": 0.44,
+  "support_blade_travel_m": 0.56,
+  "jaw_micro_lift_m": 0.035,
+  "velocity_empty_mps": 0.3,
+  "velocity_loaded_mps": 0.15,
+  "accel_mps2": 0.25,
+  "actuator_count": 14,
+  "minimum_lift_for_yaw_m": 0.05,
+  "internal_stacking_platform": false,
+  "gazebo_runtime_executed": false,
+  "detail_revision": "2026-10-15",
+  "viewer_mesh_unit": "metre",
+  "actuator_model": "Parametric reference, not certified OEM CAD",
+  "actuators": [
+    {
+      "function": "Mecanum",
+      "qty": 4,
+      "candidate": "Leadshine iSV2-CAN6020V48G",
+      "power_W": 200,
+      "brake": "brake power-off",
+      "transmission": "Planetary20:1 + timing belt1:1; hub bearing terpisah",
+      "requirement": "Output desain10.9 N.m/roda; radius75 mm; encoder dan rating roda >=150 kg per wheel"
+    },
+    {
+      "function": "Scissor",
+      "qty": 1,
+      "candidate": "iSV2-CAN8075V48G",
+      "power_W": 750,
+      "brake": "brake power-off",
+      "transmission": "Gear6:1 + belt1:1 + ballscrew25x5; BK/BF thrust support",
+      "requirement": "Stroke slider152 mm; thrust design>=15 kN; anti-drop independen"
+    },
+    {
+      "function": "Head Z",
+      "qty": 1,
+      "candidate": "iSV2-CAN8075V48G",
+      "power_W": 750,
+      "brake": "brake power-off",
+      "transmission": "Gear20:1; overhead sync shaft dan timing belt di sisi luar; pulley r15 mm; cascade2:1",
+      "requirement": "Travel345 mm; teoritis1219 N; catcher dan feedback posisi"
+    },
+    {
+      "function": "Yaw",
+      "qty": 1,
+      "candidate": "BLDC/servo48 V100 W; SKU final belum ditetapkan",
+      "power_W": 100,
+      "brake": "brake diperlukan",
+      "transmission": "Combined reduction150:1, contoh50:1 x belt3:1; slew bearing",
+      "requirement": "Output kontinu requirement>=39 N.m; CAD housing referensi; loaded yaw +/-30 derajat"
+    },
+    {
+      "function": "Extension",
+      "qty": 1,
+      "candidate": "iSV2-CAN6020V48G",
+      "power_W": 200,
+      "brake": "brake power-off",
+      "transmission": "Gear10:1 + belt1:1 + rack/pinion r20 mm; dual rail800 mm",
+      "requirement": "Stroke440 mm; force cap200 N; rack560 mm; carriage tetap pada rail"
+    },
+    {
+      "function": "Main belt",
+      "qty": 1,
+      "candidate": "iSV2-CAN6020V48H",
+      "power_W": 200,
+      "brake": "tanpa brake motor",
+      "transmission": "Gear20:1 + belt1:1; roller diameter50 mm",
+      "requirement": "Nominal belt0.20 m/s; gaya<=180 N; feedback docking"
+    },
+    {
+      "function": "Nose belt",
+      "qty": 1,
+      "candidate": "iSV2-CAN6020V48H",
+      "power_W": 200,
+      "brake": "tanpa brake motor",
+      "transmission": "Gear20:1 + step-up2:1; roller diameter16 mm; flex shaft reference",
+      "requirement": "Gaya<=180 N; bend radius belt dan shaft routing perlu validasi pemasok"
+    },
+    {
+      "function": "Micro-lift",
+      "qty": 1,
+      "candidate": "iSV2-CAN6020V48G",
+      "power_W": 200,
+      "brake": "brake power-off",
+      "transmission": "Gear2:1 + bevel/reference drive + ballscrew16x5",
+      "requirement": "Stroke35 mm; teoritis1230 N; force/slip feedback dan catcher"
+    },
+    {
+      "function": "Jaw kiri/kanan",
+      "qty": 2,
+      "candidate": "iSV2-CAN6020V48G",
+      "power_W": 200,
+      "brake": "brake power-off",
+      "transmission": "Overhead torque shaft/bevel + ballscrew16x5 per sisi; hanging fingers",
+      "requirement": "Bukaan pad600 mm; travel220 mm/jaw; clamp<=450 N/jaw; load cell; pad250 x175 mm"
+    },
+    {
+      "function": "Pelat retract",
+      "qty": 1,
+      "candidate": "iSV2-CAN6020V48G",
+      "power_W": 200,
+      "brake": "brake power-off",
+      "transmission": "Gear10:1 + flex/bevel reference + rack620 mm, pinion r12 mm",
+      "requirement": "Stroke560 mm; capacity requirement300 N; loaded pull awal<=60 N untuk margin kestabilan"
+    }
+  ],
+  "total_nameplate_W": 3800,
+  "actuator_geometry_count": 14,
+  "cad_components": 1771,
+  "side_entry_revision": "2026-10-14",
+  "intake_scheme": "Aircraft side door; base receives facing +Y, moves to clear bay, rotates to +X",
+  "dock_pose_m_rad": [
+    1,
+    -0.53,
+    0,
+    1.5707963267948966
+  ],
+  "turn_pose_m_rad": [
+    1,
+    0,
+    0,
+    0
+  ],
+  "turn_clear_zone_m": [
+    0,
+    2,
+    -1,
+    1
+  ],
+  "side_door_y_m": -1.1,
+  "side_door_x_range_m": [
+    0.5,
+    1.5
+  ],
+  "external_conveyor_ends_at_y_m": -1.1,
+  "battery": {
+    "nominal_voltage_V": 48.0,
+    "capacity_Ah": 30.0,
+    "nominal_Wh": 1440.0,
+    "capacity_derate": 0.8,
+    "distribution_efficiency": 0.94,
+    "reserve_soc": 0.15,
+    "continuous_bms_requirement_A": 125,
+    "peak_bms_requirement_A": 200,
+    "chemistry": "Reference industrial 48 V pack; final cell/BMS SKU and physical fit pending",
+    "power_method": "Assumed total DC-bus power per phase, including controller/sensors; external conveyor excluded",
+    "cycle_seconds": 124,
+    "cycle_bus_Wh": 14.055555555555555,
+    "cycle_average_bus_W": 408.06451612903226,
+    "phase_budget": [
+      {
+        "phase": "Terima dari samping - portal terbuka",
+        "seconds": 12,
+        "bus_W": 200,
+        "bus_Wh": 0.6666666666666666
+      },
+      {
+        "phase": "Keluar docking",
+        "seconds": 6,
+        "bus_W": 320,
+        "bus_Wh": 0.5333333333333333
+      },
+      {
+        "phase": "Putar berbeban",
+        "seconds": 11,
+        "bus_W": 480,
+        "bus_Wh": 1.4666666666666666
+      },
+      {
+        "phase": "Perjalanan berbeban",
+        "seconds": 21,
+        "bus_W": 400,
+        "bus_Wh": 2.3333333333333335
+      },
+      {
+        "phase": "Lifter dan penyusunan",
+        "seconds": 32,
+        "bus_W": 700,
+        "bus_Wh": 6.222222222222222
+      },
+      {
+        "phase": "Kembali kosong",
+        "seconds": 11,
+        "bus_W": 300,
+        "bus_Wh": 0.9166666666666666
+      },
+      {
+        "phase": "Putar kosong",
+        "seconds": 11,
+        "bus_W": 340,
+        "bus_Wh": 1.038888888888889
+      },
+      {
+        "phase": "Masuk docking",
+        "seconds": 6,
+        "bus_W": 270,
+        "bus_Wh": 0.45
+      },
+      {
+        "phase": "Tunggu/verifikasi bukaan",
+        "seconds": 14,
+        "bus_W": 110,
+        "bus_Wh": 0.42777777777777776
+      }
+    ],
+    "usable_operating_bus_Wh": 920.4479999999999,
+    "scenarios": [
+      {
+        "name": "Ringan",
+        "average_bus_W": 270,
+        "runtime_hours": 3.409066666666666
+      },
+      {
+        "name": "Siklus referensi",
+        "average_bus_W": 408.06451612903226,
+        "runtime_hours": 2.2556433201581023
+      },
+      {
+        "name": "Berat",
+        "average_bus_W": 650,
+        "runtime_hours": 1.416073846153846
+      }
+    ],
+    "reference_runtime_hours": 2.2556433201581023,
+    "aged_80percent_runtime_hours": 1.804514656126482,
+    "reference_cycles_before_reserve": 65,
+    "charge_estimate_hours_10A": 2.88,
+    "measurement_status": "Engineering estimate; not Gazebo motor-current integration or physical battery test"
+  },
+  "generic_hold_m": [
+    4.5,
+    2.2,
+    1.2
+  ],
+  "passage_width_min_m": 0.56,
+  "overhead_clearance_above_belt_m": 0.3665,
+  "open_pad_width_m": 0.6,
+  "max_bag_height_m": 0.32,
+  "pose_allowance_lateral_m": 0.01,
+  "pose_allowance_top_m": 0.01,
+  "jaw_demo_close_m": 0.12,
+  "max_safe_lift_m": 0.31,
+  "minimum_hold_height_m": 1.2,
+  "design_change": "Outboard columns and motors; all transverse head guides and screws above rated bag; interlocked open jaws during belt transfer",
+  "home_envelope_m": [
+    1.195,
+    0.791,
+    0.8050000001000001
+  ]
+}

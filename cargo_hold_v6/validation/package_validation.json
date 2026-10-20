@@ -1,0 +1,3568 @@
+{
+  "passed": 886,
+  "failed": [],
+  "checks": [
+    {
+      "name": "SDF cargo_hold_full.sdf",
+      "passed": true,
+      "output": "Valid.",
+      "error": ""
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/door_0.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/door_1.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/door_2.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/far_wall_0.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/far_wall_1.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/far_wall_2.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_0.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_1.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_2.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_3.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_4.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_5.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_6.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_7.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_8.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/front_wall_0.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/front_wall_1.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/near_wall_0.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/near_wall_1.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/near_wall_2.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/near_wall_3.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/near_wall_4.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/rear_wall_0.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/rear_wall_1.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/roof_0.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/roof_1.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/roof_2.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/roof_3.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__07.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__08.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__09.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_wheel_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_wheel_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller00_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller00_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller00_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller01_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller01_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller01_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller02_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller02_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller02_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller03_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller03_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller03_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller04_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller04_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller04_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller05_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller05_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller05_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller06_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller06_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller06_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller07_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller07_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller07_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller08_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller08_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller08_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller09_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller09_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller09_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller10_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller10_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller10_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller11_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller11_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller11_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_wheel_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_wheel_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller00_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller00_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller00_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller01_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller01_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller01_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller02_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller02_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller02_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller03_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller03_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller03_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller04_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller04_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller04_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller05_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller05_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller05_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller06_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller06_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller06_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller07_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller07_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller07_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller08_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller08_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller08_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller09_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller09_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller09_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller10_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller10_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller10_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller11_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller11_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller11_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_wheel_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_wheel_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller00_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller00_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller00_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller01_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller01_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller01_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller02_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller02_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller02_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller03_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller03_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller03_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller04_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller04_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller04_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller05_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller05_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller05_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller06_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller06_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller06_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller07_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller07_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller07_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller08_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller08_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller08_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller09_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller09_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller09_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller10_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller10_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller10_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller11_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller11_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller11_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_wheel_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_wheel_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller00_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller00_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller00_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller01_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller01_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller01_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller02_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller02_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller02_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller03_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller03_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller03_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller04_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller04_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller04_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller05_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller05_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller05_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller06_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller06_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller06_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller07_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller07_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller07_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller08_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller08_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller08_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller09_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller09_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller09_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller10_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller10_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller10_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller11_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller11_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller11_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/lift_carrier_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/lift_carrier_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/lower_slider_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/lower_slider_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/lower_slider_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/upper_slider_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_up_arm_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_up_arm_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_up_arm_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_down_arm_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_down_arm_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_down_arm_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_up_arm_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_up_arm_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_up_arm_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_down_arm_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_down_arm_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_down_arm_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__07.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__08.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__09.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/main_belt_roller_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__07.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/head_stage1_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/head_stage1_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/head_stage1_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/head_stage2_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/head_stage2_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/head_stage2_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/support_blade_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/support_blade_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/support_blade_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/support_blade_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/support_blade_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/support_blade_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/nose_belt_roller_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_jaw_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_jaw_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_jaw_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_jaw_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_jaw_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_jaw_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_jaw_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_jaw_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_jaw_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_jaw_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "SDF cargo_hold_cutaway.sdf",
+      "passed": true,
+      "output": "Valid.",
+      "error": ""
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/far_wall_0.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/far_wall_1.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/far_wall_2.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_0.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_1.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_2.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_3.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_4.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_5.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_6.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_7.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/floor_8.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/rear_wall_0.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://aircraft_hold/meshes/rear_wall_1.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__07.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__08.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/base_link__09.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_wheel_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_wheel_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller00_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller00_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller00_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller01_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller01_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller01_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller02_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller02_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller02_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller03_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller03_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller03_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller04_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller04_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller04_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller05_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller05_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller05_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller06_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller06_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller06_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller07_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller07_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller07_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller08_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller08_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller08_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller09_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller09_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller09_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller10_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller10_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller10_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller11_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller11_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fl_roller11_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_wheel_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_wheel_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller00_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller00_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller00_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller01_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller01_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller01_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller02_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller02_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller02_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller03_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller03_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller03_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller04_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller04_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller04_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller05_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller05_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller05_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller06_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller06_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller06_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller07_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller07_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller07_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller08_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller08_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller08_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller09_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller09_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller09_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller10_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller10_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller10_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller11_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller11_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/fr_roller11_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_wheel_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_wheel_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller00_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller00_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller00_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller01_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller01_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller01_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller02_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller02_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller02_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller03_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller03_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller03_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller04_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller04_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller04_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller05_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller05_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller05_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller06_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller06_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller06_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller07_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller07_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller07_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller08_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller08_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller08_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller09_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller09_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller09_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller10_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller10_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller10_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller11_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller11_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rl_roller11_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_wheel_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_wheel_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller00_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller00_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller00_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller01_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller01_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller01_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller02_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller02_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller02_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller03_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller03_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller03_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller04_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller04_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller04_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller05_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller05_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller05_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller06_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller06_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller06_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller07_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller07_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller07_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller08_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller08_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller08_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller09_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller09_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller09_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller10_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller10_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller10_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller11_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller11_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/rr_roller11_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/lift_carrier_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/lift_carrier_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/lower_slider_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/lower_slider_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/lower_slider_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/upper_slider_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_up_arm_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_up_arm_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_up_arm_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_down_arm_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_down_arm_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_down_arm_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_up_arm_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_up_arm_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_up_arm_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_down_arm_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_down_arm_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_down_arm_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__07.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__08.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/conveyor_yaw_link__09.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/main_belt_roller_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/extension_link__07.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/head_stage1_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/head_stage1_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/head_stage1_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/head_stage2_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/head_stage2_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/head_stage2_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/pickup_head_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/support_blade_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/support_blade_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/support_blade_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/support_blade_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/support_blade_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/support_blade_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/nose_belt_roller_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/jaw_frame_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_jaw_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_jaw_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_jaw_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_jaw_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/left_jaw_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_jaw_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_jaw_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_jaw_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_jaw_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://cargo_robot/meshes/right_jaw_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/shell.stl",
+      "passed": true
+    },
+    {
+      "name": "mesh model://luggage/meshes/trim.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF tree",
+      "passed": true,
+      "links": 71,
+      "joints": 70
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/base_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/base_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/base_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/base_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/base_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/base_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/base_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/base_link__07.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/base_link__08.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/base_link__09.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_wheel_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_wheel_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller00_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller00_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller00_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller01_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller01_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller01_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller02_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller02_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller02_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller03_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller03_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller03_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller04_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller04_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller04_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller05_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller05_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller05_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller06_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller06_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller06_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller07_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller07_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller07_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller08_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller08_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller08_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller09_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller09_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller09_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller10_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller10_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller10_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller11_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller11_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fl_roller11_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_wheel_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_wheel_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller00_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller00_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller00_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller01_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller01_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller01_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller02_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller02_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller02_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller03_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller03_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller03_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller04_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller04_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller04_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller05_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller05_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller05_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller06_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller06_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller06_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller07_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller07_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller07_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller08_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller08_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller08_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller09_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller09_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller09_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller10_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller10_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller10_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller11_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller11_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/fr_roller11_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_wheel_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_wheel_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller00_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller00_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller00_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller01_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller01_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller01_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller02_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller02_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller02_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller03_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller03_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller03_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller04_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller04_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller04_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller05_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller05_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller05_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller06_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller06_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller06_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller07_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller07_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller07_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller08_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller08_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller08_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller09_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller09_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller09_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller10_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller10_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller10_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller11_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller11_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rl_roller11_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_wheel_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_wheel_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller00_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller00_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller00_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller01_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller01_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller01_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller02_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller02_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller02_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller03_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller03_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller03_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller04_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller04_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller04_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller05_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller05_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller05_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller06_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller06_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller06_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller07_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller07_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller07_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller08_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller08_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller08_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller09_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller09_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller09_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller10_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller10_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller10_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller11_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller11_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/rr_roller11_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/lift_carrier_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/lift_carrier_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/lower_slider_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/lower_slider_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/lower_slider_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/upper_slider_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/left_up_arm_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/left_up_arm_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/left_up_arm_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/left_down_arm_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/left_down_arm_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/left_down_arm_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/right_up_arm_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/right_up_arm_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/right_up_arm_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/right_down_arm_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/right_down_arm_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/right_down_arm_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/conveyor_yaw_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/conveyor_yaw_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/conveyor_yaw_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/conveyor_yaw_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/conveyor_yaw_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/conveyor_yaw_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/conveyor_yaw_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/conveyor_yaw_link__07.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/conveyor_yaw_link__08.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/conveyor_yaw_link__09.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/main_belt_roller_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/extension_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/extension_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/extension_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/extension_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/extension_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/extension_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/extension_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/extension_link__07.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/head_stage1_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/head_stage1_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/head_stage1_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/head_stage2_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/head_stage2_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/head_stage2_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/pickup_head_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/pickup_head_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/pickup_head_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/pickup_head_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/pickup_head_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/pickup_head_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/pickup_head_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/support_blade_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/support_blade_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/support_blade_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/support_blade_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/support_blade_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/support_blade_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/nose_belt_roller_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/jaw_frame_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/jaw_frame_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/jaw_frame_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/jaw_frame_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/jaw_frame_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/jaw_frame_link__05.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/jaw_frame_link__06.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/left_jaw_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/left_jaw_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/left_jaw_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/left_jaw_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/left_jaw_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/right_jaw_link__00.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/right_jaw_link__01.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/right_jaw_link__02.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/right_jaw_link__03.stl",
+      "passed": true
+    },
+    {
+      "name": "URDF mesh models/cargo_robot/meshes/right_jaw_link__04.stl",
+      "passed": true
+    },
+    {
+      "name": "Python validate_scenario.py",
+      "passed": true
+    },
+    {
+      "name": "Python package_release.py",
+      "passed": true
+    },
+    {
+      "name": "Python build_world.py",
+      "passed": true
+    },
+    {
+      "name": "Python build_scenario.py",
+      "passed": true
+    },
+    {
+      "name": "Python sample_scenario.py",
+      "passed": true
+    },
+    {
+      "name": "Python set_camera.py",
+      "passed": true
+    },
+    {
+      "name": "Python validate_package.py",
+      "passed": true
+    },
+    {
+      "name": "Python kinematics.py",
+      "passed": true
+    },
+    {
+      "name": "Python build_hold.py",
+      "passed": true
+    },
+    {
+      "name": "compiled plugin on SDF-created Gazebo ECM",
+      "passed": true,
+      "checkpoint_rows": 13,
+      "tracks": 77,
+      "max_position_error_m": 0.0,
+      "max_sign_invariant_quaternion_error": 4.176400003608194e-08,
+      "full_server": false
+    },
+    {
+      "name": "sampled other-luggage clearance",
+      "passed": true,
+      "samples": 2203
+    },
+    {
+      "name": "4 loading and 4 unloading",
+      "passed": true,
+      "peak_bags": 30,
+      "fixed_remaining": 26
+    },
+    {
+      "name": "same replay duration",
+      "passed": true,
+      "duration_s": 1101
+    }
+  ],
+  "server_status": "Blocked by environment network socket restriction: getifaddrs / ZeroMQ ip_resolver Operation not permitted. No completed Gazebo Server or GUI run.",
+  "tested_gazebo": "Harmonic 8.15.0",
+  "video_source": "Three.js native CAD rendering of same scenario; not Gazebo recording"
+}

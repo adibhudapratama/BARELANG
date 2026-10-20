@@ -1,0 +1,16 @@
+[
+  {
+    "file": "Bagasi_Pesawat_Generic_Full.step",
+    "solids": 499,
+    "valid": true,
+    "units": "mm",
+    "volume_mm3": 1243966221.5298672
+  },
+  {
+    "file": "Bagasi_Pesawat_Generic_Cutaway.step",
+    "solids": 378,
+    "valid": true,
+    "units": "mm",
+    "volume_mm3": 800314086.0099556
+  }
+]

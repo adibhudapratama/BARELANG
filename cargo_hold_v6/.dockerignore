@@ -1,0 +1,7 @@
+build
+render/frames_*
+video
+cad
+*.zip
+__pycache__
+validation/*.log

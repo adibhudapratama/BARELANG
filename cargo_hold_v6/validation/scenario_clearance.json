@@ -1,0 +1,9 @@
+{
+  "samples": 2203,
+  "cad_parts": 1771,
+  "fixed_bags": 26,
+  "highest_sampled_robot_point_m": 1.0510000000000002,
+  "collisions_count": 0,
+  "collisions": [],
+  "scope": "Conservative transformed CAD-part AABBs versus other luggage; carried bag excluded (v5 passage validation). Discrete rigid-envelope check, not contact simulation."
+}

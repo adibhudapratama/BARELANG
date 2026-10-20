@@ -1,0 +1,4215 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="cargo_robot">
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0.125" rpy="0 0 0" />
+      <mass value="90" />
+      <inertia ixx="3.99516" iyy="8.268" izz="11.455799999999998" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="base_link_collision0">
+      <origin xyz="0 0 0.145" rpy="0 0 0" />
+      <geometry>
+        <box size="0.98 0.66 0.11" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/base_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="base_link__00.stl">
+        <color rgba="0.16 0.22 0.28 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/base_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="base_link__01.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/base_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="base_link__02.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/base_link__03.stl" scale="1 1 1" />
+      </geometry>
+      <material name="base_link__03.stl">
+        <color rgba="0.98 0.47 0.12 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/base_link__04.stl" scale="1 1 1" />
+      </geometry>
+      <material name="base_link__04.stl">
+        <color rgba="0.8 0.1 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/base_link__05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="base_link__05.stl">
+        <color rgba="0.12 0.55 0.7 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/base_link__06.stl" scale="1 1 1" />
+      </geometry>
+      <material name="base_link__06.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/base_link__07.stl" scale="1 1 1" />
+      </geometry>
+      <material name="base_link__07.stl">
+        <color rgba="0.25 0.62 0.37 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/base_link__08.stl" scale="1 1 1" />
+      </geometry>
+      <material name="base_link__08.stl">
+        <color rgba="0.1 0.13 0.17 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/base_link__09.stl" scale="1 1 1" />
+      </geometry>
+      <material name="base_link__09.stl">
+        <color rgba="0.82 0.86 0.91 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_wheel_link">
+    <inertial>
+      <origin xyz="1.919716e-05 -0.000538893582 1.89679189e-15" rpy="0 0 0" />
+      <mass value="2.8" />
+      <inertia ixx="0.006066666666666667" iyy="0.009146666666666668" izz="0.006066666666666667" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_wheel_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_wheel_link__00.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_wheel_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_wheel_link__01.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_roller00_link">
+    <inertial>
+      <origin xyz="-5.38018139e-17 -6.12640226e-16 -6.12624764e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.8486749999999092e-05" iyy="1.5776708426666223e-05" izz="1.5776708426666223e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fl_roller00_link_collision0">
+      <origin xyz="0 -0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller00_link_collision1">
+      <origin xyz="-0 0.00353553391 0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller00_link_collision2">
+      <origin xyz="0 -0.00353553391 -0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller00_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller00_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller00_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller00_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller00_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller00_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_roller01_link">
+    <inertial>
+      <origin xyz="-4.80063094e-15 -2.77163999e-15 -1.67087915e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718827114e-05" izz="1.6274098616715238e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fl_roller01_link_collision0">
+      <origin xyz="0 -0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller01_link_collision1">
+      <origin xyz="-0.00176776695 0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller01_link_collision2">
+      <origin xyz="0.00176776695 -0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller01_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller01_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller01_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller01_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller01_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller01_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_roller02_link">
+    <inertial>
+      <origin xyz="6.97297485e-16 -3.38509973e-15 4.42485322e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.627409861671504e-05" iyy="1.5820872718826918e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fl_roller02_link_collision0">
+      <origin xyz="0 -0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller02_link_collision1">
+      <origin xyz="-0.00306186218 0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller02_link_collision2">
+      <origin xyz="0.00306186218 -0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller02_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller02_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller02_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller02_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller02_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller02_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_roller03_link">
+    <inertial>
+      <origin xyz="1.26548299e-15 -1.2074831e-15 7.03138449e-17" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.5776708426666243e-05" iyy="1.5776708426666243e-05" izz="1.8486749999999092e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fl_roller03_link_collision0">
+      <origin xyz="0 -0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller03_link_collision1">
+      <origin xyz="-0.00353553391 0.00353553391 2.16489014e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller03_link_collision2">
+      <origin xyz="0.00353553391 -0.00353553391 -2.16489014e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller03_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller03_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller03_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller03_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller03_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller03_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_roller04_link">
+    <inertial>
+      <origin xyz="2.05040653e-15 -4.40833152e-15 -3.48390519e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.6274098616707923e-05" iyy="1.5820872718819796e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fl_roller04_link_collision0">
+      <origin xyz="0 -0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller04_link_collision1">
+      <origin xyz="-0.00306186218 0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller04_link_collision2">
+      <origin xyz="0.00306186218 -0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller04_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller04_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller04_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller04_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller04_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller04_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_roller05_link">
+    <inertial>
+      <origin xyz="-5.59663338e-15 -1.04975001e-15 -7.69646583e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718827256e-05" izz="1.6274098616715384e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fl_roller05_link_collision0">
+      <origin xyz="0 -0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller05_link_collision1">
+      <origin xyz="-0.00176776695 0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller05_link_collision2">
+      <origin xyz="0.00176776695 -0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller05_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller05_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller05_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller05_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller05_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller05_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_roller06_link">
+    <inertial>
+      <origin xyz="-5.42328314e-17 -8.04158912e-16 9.61381744e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.8486749999999092e-05" iyy="1.577670842666622e-05" izz="1.577670842666622e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fl_roller06_link_collision0">
+      <origin xyz="0 -0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller06_link_collision1">
+      <origin xyz="-4.32978028e-19 0.00353553391 -0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller06_link_collision2">
+      <origin xyz="4.32978028e-19 -0.00353553391 0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller06_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller06_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller06_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller06_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller06_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller06_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_roller07_link">
+    <inertial>
+      <origin xyz="3.19736163e-15 -5.12620961e-15 2.68095235e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718816967e-05" izz="1.6274098616705094e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fl_roller07_link_collision0">
+      <origin xyz="-0 -0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller07_link_collision1">
+      <origin xyz="0.00176776695 0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller07_link_collision2">
+      <origin xyz="-0.00176776695 -0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller07_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller07_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller07_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller07_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller07_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller07_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_roller08_link">
+    <inertial>
+      <origin xyz="-1.17241412e-15 -2.95239676e-15 -4.38456564e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.627409861671281e-05" iyy="1.582087271882468e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fl_roller08_link_collision0">
+      <origin xyz="-0 -0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller08_link_collision1">
+      <origin xyz="0.00306186218 0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller08_link_collision2">
+      <origin xyz="-0.00306186218 -0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller08_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller08_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller08_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller08_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller08_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller08_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_roller09_link">
+    <inertial>
+      <origin xyz="-1.18466043e-15 -1.07110374e-15 -8.12245806e-17" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.5776708426666243e-05" iyy="1.5776708426666243e-05" izz="1.8486749999999092e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fl_roller09_link_collision0">
+      <origin xyz="-0 -0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller09_link_collision1">
+      <origin xyz="0.00353553391 0.00353553391 -6.49467042e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller09_link_collision2">
+      <origin xyz="-0.00353553391 -0.00353553391 6.49467042e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller09_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller09_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller09_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller09_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller09_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller09_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_roller10_link">
+    <inertial>
+      <origin xyz="-4.44624561e-16 -2.95006192e-15 4.52642647e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.627409861670561e-05" iyy="1.582087271881748e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fl_roller10_link_collision0">
+      <origin xyz="-0 -0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller10_link_collision1">
+      <origin xyz="0.00306186218 0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller10_link_collision2">
+      <origin xyz="-0.00306186218 -0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller10_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller10_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller10_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller10_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller10_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller10_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fl_roller11_link">
+    <inertial>
+      <origin xyz="4.34701493e-15 -3.362509e-15 -8.24708592e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718817112e-05" izz="1.627409861670524e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fl_roller11_link_collision0">
+      <origin xyz="-0 -0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller11_link_collision1">
+      <origin xyz="0.00176776695 0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fl_roller11_link_collision2">
+      <origin xyz="-0.00176776695 -0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller11_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller11_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller11_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller11_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fl_roller11_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fl_roller11_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_wheel_link">
+    <inertial>
+      <origin xyz="1.919716e-05 0.000538893582 1.87781118e-15" rpy="0 0 0" />
+      <mass value="2.8" />
+      <inertia ixx="0.006066666666666667" iyy="0.009146666666666668" izz="0.006066666666666667" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_wheel_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_wheel_link__00.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_wheel_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_wheel_link__01.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_roller00_link">
+    <inertial>
+      <origin xyz="-5.51277244e-17 9.61118881e-16 -8.03184774e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.8486749999999092e-05" iyy="1.5776708426666223e-05" izz="1.5776708426666223e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fr_roller00_link_collision0">
+      <origin xyz="0 0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller00_link_collision1">
+      <origin xyz="-0 -0.00353553391 0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller00_link_collision2">
+      <origin xyz="0 0.00353553391 -0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller00_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller00_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller00_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller00_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller00_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller00_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_roller01_link">
+    <inertial>
+      <origin xyz="-4.76996105e-15 2.98145083e-15 -2.13738317e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718827114e-05" izz="1.6274098616715238e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fr_roller01_link_collision0">
+      <origin xyz="0 0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller01_link_collision1">
+      <origin xyz="-0.00176776695 -0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller01_link_collision2">
+      <origin xyz="0.00176776695 0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller01_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller01_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller01_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller01_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller01_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller01_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_roller02_link">
+    <inertial>
+      <origin xyz="8.2851237e-16 3.68327883e-15 4.34802772e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.627409861671504e-05" iyy="1.5820872718826918e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fr_roller02_link_collision0">
+      <origin xyz="0 0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller02_link_collision1">
+      <origin xyz="-0.00306186218 -0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller02_link_collision2">
+      <origin xyz="0.00306186218 0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller02_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller02_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller02_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller02_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller02_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller02_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_roller03_link">
+    <inertial>
+      <origin xyz="1.26636435e-15 1.3763492e-15 7.7445929e-17" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.5776708426666243e-05" iyy="1.5776708426666243e-05" izz="1.8486749999999092e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fr_roller03_link_collision0">
+      <origin xyz="0 0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller03_link_collision1">
+      <origin xyz="-0.00353553391 -0.00353553391 2.16489014e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller03_link_collision2">
+      <origin xyz="0.00353553391 0.00353553391 -2.16489014e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller03_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller03_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller03_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller03_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller03_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller03_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_roller04_link">
+    <inertial>
+      <origin xyz="2.16571049e-15 4.68625473e-15 -3.42567336e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.6274098616707923e-05" iyy="1.5820872718819796e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fr_roller04_link_collision0">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller04_link_collision1">
+      <origin xyz="-0.00306186218 -0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller04_link_collision2">
+      <origin xyz="0.00306186218 0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller04_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller04_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller04_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller04_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller04_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller04_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_roller05_link">
+    <inertial>
+      <origin xyz="-5.9987051e-15 5.85240653e-16 -1.28867676e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718827256e-05" izz="1.6274098616715384e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fr_roller05_link_collision0">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller05_link_collision1">
+      <origin xyz="-0.00176776695 -0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller05_link_collision2">
+      <origin xyz="0.00176776695 0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller05_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller05_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller05_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller05_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller05_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller05_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_roller06_link">
+    <inertial>
+      <origin xyz="-5.32683572e-17 1.1523747e-15 1.15322514e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.8486749999999092e-05" iyy="1.577670842666622e-05" izz="1.577670842666622e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fr_roller06_link_collision0">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller06_link_collision1">
+      <origin xyz="-4.32978028e-19 -0.00353553391 -0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller06_link_collision2">
+      <origin xyz="4.32978028e-19 0.00353553391 0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller06_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller06_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller06_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller06_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller06_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller06_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_roller07_link">
+    <inertial>
+      <origin xyz="3.39470968e-15 5.1426308e-15 2.58755877e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718816967e-05" izz="1.6274098616705094e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fr_roller07_link_collision0">
+      <origin xyz="-0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller07_link_collision1">
+      <origin xyz="0.00176776695 -0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller07_link_collision2">
+      <origin xyz="-0.00176776695 0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller07_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller07_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller07_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller07_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller07_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller07_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_roller08_link">
+    <inertial>
+      <origin xyz="-1.62158466e-15 3.648148e-15 -4.10610124e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.627409861671281e-05" iyy="1.582087271882468e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fr_roller08_link_collision0">
+      <origin xyz="-0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller08_link_collision1">
+      <origin xyz="0.00306186218 -0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller08_link_collision2">
+      <origin xyz="-0.00306186218 0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller08_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller08_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller08_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller08_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller08_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller08_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_roller09_link">
+    <inertial>
+      <origin xyz="-1.2085964e-15 1.2660551e-15 -7.06636843e-17" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.5776708426666243e-05" iyy="1.5776708426666243e-05" izz="1.8486749999999092e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fr_roller09_link_collision0">
+      <origin xyz="-0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller09_link_collision1">
+      <origin xyz="0.00353553391 -0.00353553391 -6.49467042e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller09_link_collision2">
+      <origin xyz="-0.00353553391 0.00353553391 6.49467042e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller09_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller09_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller09_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller09_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller09_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller09_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_roller10_link">
+    <inertial>
+      <origin xyz="-6.50817171e-16 3.34223764e-15 4.40759705e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.6274098616705605e-05" iyy="1.582087271881748e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fr_roller10_link_collision0">
+      <origin xyz="-0 0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller10_link_collision1">
+      <origin xyz="0.00306186218 -0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller10_link_collision2">
+      <origin xyz="-0.00306186218 0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller10_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller10_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller10_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller10_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller10_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller10_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="fr_roller11_link">
+    <inertial>
+      <origin xyz="4.23133214e-15 3.76951326e-15 -1.02957143e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718817112e-05" izz="1.627409861670524e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="fr_roller11_link_collision0">
+      <origin xyz="-0 0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller11_link_collision1">
+      <origin xyz="0.00176776695 -0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="fr_roller11_link_collision2">
+      <origin xyz="-0.00176776695 0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller11_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller11_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller11_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller11_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/fr_roller11_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="fr_roller11_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_wheel_link">
+    <inertial>
+      <origin xyz="1.919716e-05 -0.000538893582 1.7560635e-15" rpy="0 0 0" />
+      <mass value="2.8" />
+      <inertia ixx="0.006066666666666667" iyy="0.009146666666666668" izz="0.006066666666666667" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_wheel_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_wheel_link__00.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_wheel_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_wheel_link__01.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_roller00_link">
+    <inertial>
+      <origin xyz="-5.51277244e-17 9.61118881e-16 -8.03184774e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.8486749999999092e-05" iyy="1.5776708426666223e-05" izz="1.5776708426666223e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rl_roller00_link_collision0">
+      <origin xyz="0 0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller00_link_collision1">
+      <origin xyz="-0 -0.00353553391 0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller00_link_collision2">
+      <origin xyz="0 0.00353553391 -0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller00_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller00_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller00_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller00_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller00_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller00_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_roller01_link">
+    <inertial>
+      <origin xyz="-4.76996105e-15 2.98145083e-15 -2.13738317e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718827114e-05" izz="1.6274098616715238e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rl_roller01_link_collision0">
+      <origin xyz="0 0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller01_link_collision1">
+      <origin xyz="-0.00176776695 -0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller01_link_collision2">
+      <origin xyz="0.00176776695 0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller01_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller01_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller01_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller01_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller01_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller01_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_roller02_link">
+    <inertial>
+      <origin xyz="8.2851237e-16 3.68327883e-15 4.34802772e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.627409861671504e-05" iyy="1.5820872718826918e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rl_roller02_link_collision0">
+      <origin xyz="0 0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller02_link_collision1">
+      <origin xyz="-0.00306186218 -0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller02_link_collision2">
+      <origin xyz="0.00306186218 0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller02_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller02_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller02_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller02_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller02_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller02_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_roller03_link">
+    <inertial>
+      <origin xyz="1.26636435e-15 1.3763492e-15 7.7445929e-17" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.5776708426666243e-05" iyy="1.5776708426666243e-05" izz="1.8486749999999092e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rl_roller03_link_collision0">
+      <origin xyz="0 0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller03_link_collision1">
+      <origin xyz="-0.00353553391 -0.00353553391 2.16489014e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller03_link_collision2">
+      <origin xyz="0.00353553391 0.00353553391 -2.16489014e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller03_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller03_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller03_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller03_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller03_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller03_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_roller04_link">
+    <inertial>
+      <origin xyz="2.16571049e-15 4.68625473e-15 -3.42567336e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.6274098616707923e-05" iyy="1.5820872718819796e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rl_roller04_link_collision0">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller04_link_collision1">
+      <origin xyz="-0.00306186218 -0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller04_link_collision2">
+      <origin xyz="0.00306186218 0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller04_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller04_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller04_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller04_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller04_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller04_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_roller05_link">
+    <inertial>
+      <origin xyz="-5.9987051e-15 5.85240653e-16 -1.28867676e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718827256e-05" izz="1.6274098616715384e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rl_roller05_link_collision0">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller05_link_collision1">
+      <origin xyz="-0.00176776695 -0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller05_link_collision2">
+      <origin xyz="0.00176776695 0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller05_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller05_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller05_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller05_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller05_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller05_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_roller06_link">
+    <inertial>
+      <origin xyz="-5.32683572e-17 1.1523747e-15 1.15322514e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.8486749999999092e-05" iyy="1.577670842666622e-05" izz="1.577670842666622e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rl_roller06_link_collision0">
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller06_link_collision1">
+      <origin xyz="-4.32978028e-19 -0.00353553391 -0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller06_link_collision2">
+      <origin xyz="4.32978028e-19 0.00353553391 0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller06_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller06_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller06_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller06_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller06_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller06_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_roller07_link">
+    <inertial>
+      <origin xyz="3.39470968e-15 5.1426308e-15 2.58755877e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718816967e-05" izz="1.6274098616705094e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rl_roller07_link_collision0">
+      <origin xyz="-0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller07_link_collision1">
+      <origin xyz="0.00176776695 -0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller07_link_collision2">
+      <origin xyz="-0.00176776695 0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller07_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller07_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller07_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller07_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller07_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller07_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_roller08_link">
+    <inertial>
+      <origin xyz="-1.62158466e-15 3.648148e-15 -4.10610124e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.627409861671281e-05" iyy="1.582087271882468e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rl_roller08_link_collision0">
+      <origin xyz="-0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller08_link_collision1">
+      <origin xyz="0.00306186218 -0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller08_link_collision2">
+      <origin xyz="-0.00306186218 0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller08_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller08_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller08_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller08_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller08_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller08_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_roller09_link">
+    <inertial>
+      <origin xyz="-1.2085964e-15 1.2660551e-15 -7.06636843e-17" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.5776708426666243e-05" iyy="1.5776708426666243e-05" izz="1.8486749999999092e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rl_roller09_link_collision0">
+      <origin xyz="-0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller09_link_collision1">
+      <origin xyz="0.00353553391 -0.00353553391 -6.49467042e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller09_link_collision2">
+      <origin xyz="-0.00353553391 0.00353553391 6.49467042e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller09_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller09_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller09_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller09_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller09_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller09_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_roller10_link">
+    <inertial>
+      <origin xyz="-6.50817171e-16 3.34223764e-15 4.40759705e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.6274098616705605e-05" iyy="1.582087271881748e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rl_roller10_link_collision0">
+      <origin xyz="-0 0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller10_link_collision1">
+      <origin xyz="0.00306186218 -0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller10_link_collision2">
+      <origin xyz="-0.00306186218 0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller10_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller10_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller10_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller10_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller10_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller10_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rl_roller11_link">
+    <inertial>
+      <origin xyz="4.23133214e-15 3.76951326e-15 -1.02957143e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718817112e-05" izz="1.627409861670524e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rl_roller11_link_collision0">
+      <origin xyz="-0 0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller11_link_collision1">
+      <origin xyz="0.00176776695 -0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rl_roller11_link_collision2">
+      <origin xyz="-0.00176776695 0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller11_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller11_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller11_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller11_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rl_roller11_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rl_roller11_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_wheel_link">
+    <inertial>
+      <origin xyz="1.919716e-05 0.000538893582 1.77555852e-15" rpy="0 0 0" />
+      <mass value="2.8" />
+      <inertia ixx="0.006066666666666667" iyy="0.009146666666666668" izz="0.006066666666666667" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_wheel_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_wheel_link__00.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_wheel_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_wheel_link__01.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_roller00_link">
+    <inertial>
+      <origin xyz="-5.38018139e-17 -6.12640226e-16 -6.12624764e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.8486749999999092e-05" iyy="1.5776708426666223e-05" izz="1.5776708426666223e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rr_roller00_link_collision0">
+      <origin xyz="0 -0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller00_link_collision1">
+      <origin xyz="-0 0.00353553391 0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller00_link_collision2">
+      <origin xyz="0 -0.00353553391 -0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller00_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller00_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller00_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller00_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller00_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller00_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_roller01_link">
+    <inertial>
+      <origin xyz="-4.80063094e-15 -2.77163999e-15 -1.67087915e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718827114e-05" izz="1.6274098616715238e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rr_roller01_link_collision0">
+      <origin xyz="0 -0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller01_link_collision1">
+      <origin xyz="-0.00176776695 0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller01_link_collision2">
+      <origin xyz="0.00176776695 -0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller01_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller01_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller01_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller01_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller01_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller01_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_roller02_link">
+    <inertial>
+      <origin xyz="6.97297485e-16 -3.38509973e-15 4.42485322e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.627409861671504e-05" iyy="1.5820872718826918e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rr_roller02_link_collision0">
+      <origin xyz="0 -0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller02_link_collision1">
+      <origin xyz="-0.00306186218 0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller02_link_collision2">
+      <origin xyz="0.00306186218 -0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller02_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller02_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller02_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller02_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller02_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller02_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_roller03_link">
+    <inertial>
+      <origin xyz="1.26548299e-15 -1.2074831e-15 7.03138449e-17" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.5776708426666243e-05" iyy="1.5776708426666243e-05" izz="1.8486749999999092e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rr_roller03_link_collision0">
+      <origin xyz="0 -0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller03_link_collision1">
+      <origin xyz="-0.00353553391 0.00353553391 2.16489014e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller03_link_collision2">
+      <origin xyz="0.00353553391 -0.00353553391 -2.16489014e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller03_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller03_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller03_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller03_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller03_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller03_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_roller04_link">
+    <inertial>
+      <origin xyz="2.05040653e-15 -4.40833152e-15 -3.48390519e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.6274098616707923e-05" iyy="1.5820872718819796e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rr_roller04_link_collision0">
+      <origin xyz="0 -0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller04_link_collision1">
+      <origin xyz="-0.00306186218 0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller04_link_collision2">
+      <origin xyz="0.00306186218 -0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller04_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller04_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller04_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller04_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller04_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller04_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_roller05_link">
+    <inertial>
+      <origin xyz="-5.59663338e-15 -1.04975001e-15 -7.69646583e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718827256e-05" izz="1.6274098616715384e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rr_roller05_link_collision0">
+      <origin xyz="0 -0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller05_link_collision1">
+      <origin xyz="-0.00176776695 0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller05_link_collision2">
+      <origin xyz="0.00176776695 -0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller05_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller05_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller05_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller05_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller05_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller05_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_roller06_link">
+    <inertial>
+      <origin xyz="-5.42328314e-17 -8.04158912e-16 9.61381744e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.8486749999999092e-05" iyy="1.577670842666622e-05" izz="1.577670842666622e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rr_roller06_link_collision0">
+      <origin xyz="0 -0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller06_link_collision1">
+      <origin xyz="-4.32978028e-19 0.00353553391 -0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller06_link_collision2">
+      <origin xyz="4.32978028e-19 -0.00353553391 0.00353553391" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller06_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller06_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller06_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller06_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller06_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller06_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_roller07_link">
+    <inertial>
+      <origin xyz="3.19736163e-15 -5.12620961e-15 2.68095235e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718816967e-05" izz="1.6274098616705094e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rr_roller07_link_collision0">
+      <origin xyz="-0 -0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller07_link_collision1">
+      <origin xyz="0.00176776695 0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller07_link_collision2">
+      <origin xyz="-0.00176776695 -0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller07_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller07_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller07_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller07_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller07_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller07_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_roller08_link">
+    <inertial>
+      <origin xyz="-1.17241412e-15 -2.95239676e-15 -4.38456564e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.627409861671281e-05" iyy="1.582087271882468e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rr_roller08_link_collision0">
+      <origin xyz="-0 -0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller08_link_collision1">
+      <origin xyz="0.00306186218 0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller08_link_collision2">
+      <origin xyz="-0.00306186218 -0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller08_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller08_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller08_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller08_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller08_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller08_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_roller09_link">
+    <inertial>
+      <origin xyz="-1.18466043e-15 -1.07110374e-15 -8.12245806e-17" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.5776708426666243e-05" iyy="1.5776708426666243e-05" izz="1.8486749999999092e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rr_roller09_link_collision0">
+      <origin xyz="-0 -0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller09_link_collision1">
+      <origin xyz="0.00353553391 0.00353553391 -6.49467042e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller09_link_collision2">
+      <origin xyz="-0.00353553391 -0.00353553391 6.49467042e-19" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller09_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller09_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller09_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller09_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller09_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller09_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_roller10_link">
+    <inertial>
+      <origin xyz="-4.44624561e-16 -2.95006192e-15 4.52642647e-15" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.627409861670561e-05" iyy="1.582087271881748e-05" izz="1.803352410210631e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rr_roller10_link_collision0">
+      <origin xyz="-0 -0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller10_link_collision1">
+      <origin xyz="0.00306186218 0.00353553391 0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller10_link_collision2">
+      <origin xyz="-0.00306186218 -0.00353553391 -0.00176776695" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller10_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller10_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller10_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller10_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller10_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller10_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="rr_roller11_link">
+    <inertial>
+      <origin xyz="4.34701493e-15 -3.362509e-15 -8.24708592e-16" rpy="0 0 0" />
+      <mass value="0.1" />
+      <inertia ixx="1.803352410210631e-05" iyy="1.5820872718817112e-05" izz="1.627409861670524e-05" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="rr_roller11_link_collision0">
+      <origin xyz="-0 -0 -0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.014" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller11_link_collision1">
+      <origin xyz="0.00176776695 0.00353553391 0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <collision name="rr_roller11_link_collision2">
+      <origin xyz="-0.00176776695 -0.00353553391 -0.00306186218" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.009" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller11_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller11_link__00.stl">
+        <color rgba="0.06 0.07 0.09 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller11_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller11_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/rr_roller11_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="rr_roller11_link__02.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="lift_carrier_link">
+    <inertial>
+      <origin xyz="-1.23349068e-15 3.32838138e-16 -0.000799687562" rpy="0 0 0" />
+      <mass value="8" />
+      <inertia ixx="0.23363483333333332" iyy="0.44983483333333324" izz="0.6803333333333331" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/lift_carrier_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="lift_carrier_link__00.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/lift_carrier_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="lift_carrier_link__01.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="lower_slider_link">
+    <inertial>
+      <origin xyz="-0.00231525831 -3.73097709e-14 0.000251247183" rpy="0 0 0" />
+      <mass value="1.5" />
+      <inertia ixx="0.029853124999999998" iyy="0.0010625" izz="0.030015625" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/lower_slider_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="lower_slider_link__00.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/lower_slider_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="lower_slider_link__01.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/lower_slider_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="lower_slider_link__02.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="upper_slider_link">
+    <inertial>
+      <origin xyz="-2.4516858e-17 -5.37931033e-14 0.000360319855" rpy="0 0 0" />
+      <mass value="1.5" />
+      <inertia ixx="0.02957425" iyy="0.000783625" izz="0.030015625" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/upper_slider_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="upper_slider_link__00.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="left_up_arm_link">
+    <inertial>
+      <origin xyz="0.325 0.000505923861 4.35925137e-17" rpy="0 0 0" />
+      <mass value="2.5" />
+      <inertia ixx="0.0015504083333333335" iyy="0.10105208333333332" izz="0.10175874166666665" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/left_up_arm_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="left_up_arm_link__00.stl">
+        <color rgba="0.98 0.47 0.12 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/left_up_arm_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="left_up_arm_link__01.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/left_up_arm_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="left_up_arm_link__02.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="left_down_arm_link">
+    <inertial>
+      <origin xyz="0.325 0.000344325068 4.35823039e-17" rpy="0 0 0" />
+      <mass value="2.5" />
+      <inertia ixx="0.0015504083333333335" iyy="0.10105208333333332" izz="0.10175874166666665" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/left_down_arm_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="left_down_arm_link__00.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/left_down_arm_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="left_down_arm_link__01.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/left_down_arm_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="left_down_arm_link__02.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="right_up_arm_link">
+    <inertial>
+      <origin xyz="0.325 0.000505923861 4.35925137e-17" rpy="0 0 0" />
+      <mass value="2.5" />
+      <inertia ixx="0.0015504083333333335" iyy="0.10105208333333332" izz="0.10175874166666665" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/right_up_arm_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="right_up_arm_link__00.stl">
+        <color rgba="0.98 0.47 0.12 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/right_up_arm_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="right_up_arm_link__01.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/right_up_arm_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="right_up_arm_link__02.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="right_down_arm_link">
+    <inertial>
+      <origin xyz="0.325 0.000344325068 4.35823039e-17" rpy="0 0 0" />
+      <mass value="2.5" />
+      <inertia ixx="0.0015504083333333335" iyy="0.10105208333333332" izz="0.10175874166666665" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/right_down_arm_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="right_down_arm_link__00.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/right_down_arm_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="right_down_arm_link__01.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/right_down_arm_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="right_down_arm_link__02.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="conveyor_yaw_link">
+    <inertial>
+      <origin xyz="-0.0924867076 -0.00370530051 -0.00912496014" rpy="0 0 0" />
+      <mass value="17.0" />
+      <inertia ixx="0.8242166666666666" iyy="1.8312060000000001" izz="2.483960666666667" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="conveyor_yaw_link_collision0">
+      <origin xyz="-0.15 0 0.025" rpy="0 0 0" />
+      <geometry>
+        <box size="0.64 0.53 0.012" />
+      </geometry>
+    </collision>
+    <collision name="conveyor_yaw_link_collision1">
+      <origin xyz="-0.515 0 0.0275" rpy="0 0 0" />
+      <geometry>
+        <box size="0.09 0.56 0.005" />
+      </geometry>
+    </collision>
+    <collision name="conveyor_yaw_link_collision2">
+      <origin xyz="-0.16 -0.302 0.055" rpy="0 0 0" />
+      <geometry>
+        <box size="0.58 0.012 0.09" />
+      </geometry>
+    </collision>
+    <collision name="conveyor_yaw_link_collision3">
+      <origin xyz="-0.16 0.302 0.055" rpy="0 0 0" />
+      <geometry>
+        <box size="0.58 0.012 0.09" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/conveyor_yaw_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="conveyor_yaw_link__00.stl">
+        <color rgba="0.1 0.13 0.17 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/conveyor_yaw_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="conveyor_yaw_link__01.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/conveyor_yaw_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="conveyor_yaw_link__02.stl">
+        <color rgba="0.98 0.47 0.12 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/conveyor_yaw_link__03.stl" scale="1 1 1" />
+      </geometry>
+      <material name="conveyor_yaw_link__03.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/conveyor_yaw_link__04.stl" scale="1 1 1" />
+      </geometry>
+      <material name="conveyor_yaw_link__04.stl">
+        <color rgba="0.82 0.86 0.91 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/conveyor_yaw_link__05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="conveyor_yaw_link__05.stl">
+        <color rgba="0.89 0.92 0.94 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/conveyor_yaw_link__06.stl" scale="1 1 1" />
+      </geometry>
+      <material name="conveyor_yaw_link__06.stl">
+        <color rgba="0.16 0.22 0.28 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/conveyor_yaw_link__07.stl" scale="1 1 1" />
+      </geometry>
+      <material name="conveyor_yaw_link__07.stl">
+        <color rgba="0.12 0.55 0.7 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/conveyor_yaw_link__08.stl" scale="1 1 1" />
+      </geometry>
+      <material name="conveyor_yaw_link__08.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/conveyor_yaw_link__09.stl" scale="1 1 1" />
+      </geometry>
+      <material name="conveyor_yaw_link__09.stl">
+        <color rgba="0.25 0.62 0.37 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="main_belt_roller_link">
+    <inertial>
+      <origin xyz="-4.00985488e-18 0.000713802109 7.49392457e-16" rpy="0 0 0" />
+      <mass value="0.8" />
+      <inertia ixx="0.01993347266666667" iyy="0.00030720000000000004" izz="0.01993347266666667" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/main_belt_roller_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="main_belt_roller_link__00.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="extension_link">
+    <inertial>
+      <origin xyz="-0.103089335 0.1448863 0.0752981159" rpy="0 0 0" />
+      <mass value="9.0" />
+      <inertia ixx="0.6400149375000018" iyy="0.42008418749999993" izz="0.6903307500000019" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="extension_link_collision0">
+      <origin xyz="0.04 -0.33 0.095" rpy="0 0 0" />
+      <geometry>
+        <box size="0.055 0.045 0.28" />
+      </geometry>
+    </collision>
+    <collision name="extension_link_collision1">
+      <origin xyz="0.04 0.33 0.095" rpy="0 0 0" />
+      <geometry>
+        <box size="0.055 0.045 0.28" />
+      </geometry>
+    </collision>
+    <collision name="extension_link_collision2">
+      <origin xyz="-0.11 0 0.42" rpy="1.57079633 0 0" />
+      <geometry>
+        <cylinder radius="0.007" length="0.66" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/extension_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="extension_link__00.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/extension_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="extension_link__01.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/extension_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="extension_link__02.stl">
+        <color rgba="0.16 0.22 0.28 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/extension_link__03.stl" scale="1 1 1" />
+      </geometry>
+      <material name="extension_link__03.stl">
+        <color rgba="0.82 0.86 0.91 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/extension_link__04.stl" scale="1 1 1" />
+      </geometry>
+      <material name="extension_link__04.stl">
+        <color rgba="0.1 0.13 0.17 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/extension_link__05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="extension_link__05.stl">
+        <color rgba="0.12 0.55 0.7 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/extension_link__06.stl" scale="1 1 1" />
+      </geometry>
+      <material name="extension_link__06.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/extension_link__07.stl" scale="1 1 1" />
+      </geometry>
+      <material name="extension_link__07.stl">
+        <color rgba="0.25 0.62 0.37 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="head_stage1_link">
+    <inertial>
+      <origin xyz="0.04 -1.55473996e-17 0.164683361" rpy="0 0 0" />
+      <mass value="2" />
+      <inertia ixx="0.09301933333333333" iyy="0.010739333333333332" izz="0.08292533333333332" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="head_stage1_link_collision0">
+      <origin xyz="0.04 -0.33 0.165" rpy="0 0 0" />
+      <geometry>
+        <box size="0.044 0.038 0.25" />
+      </geometry>
+    </collision>
+    <collision name="head_stage1_link_collision1">
+      <origin xyz="0.04 0.33 0.165" rpy="0 0 0" />
+      <geometry>
+        <box size="0.044 0.038 0.25" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/head_stage1_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="head_stage1_link__00.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/head_stage1_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="head_stage1_link__01.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/head_stage1_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="head_stage1_link__02.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="head_stage2_link">
+    <inertial>
+      <origin xyz="0.04 7.96305213e-16 0.164681925" rpy="0 0 0" />
+      <mass value="2" />
+      <inertia ixx="0.09301933333333333" iyy="0.010609333333333333" izz="0.08279533333333332" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="head_stage2_link_collision0">
+      <origin xyz="0.04 -0.33 0.165" rpy="0 0 0" />
+      <geometry>
+        <box size="0.034 0.028 0.25" />
+      </geometry>
+    </collision>
+    <collision name="head_stage2_link_collision1">
+      <origin xyz="0.04 0.33 0.165" rpy="0 0 0" />
+      <geometry>
+        <box size="0.034 0.028 0.25" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/head_stage2_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="head_stage2_link__00.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/head_stage2_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="head_stage2_link__01.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/head_stage2_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="head_stage2_link__02.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="pickup_head_link">
+    <inertial>
+      <origin xyz="0.0911062449 -0.0711828246 0.336248659" rpy="0 0 0" />
+      <mass value="14.0" />
+      <inertia ixx="0.8898274583333333" iyy="0.6639689583333334" izz="1.1112558333333333" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="pickup_head_link_collision0">
+      <origin xyz="0.04 0 0.42" rpy="0 0 0" />
+      <geometry>
+        <box size="0.065 0.73 0.045" />
+      </geometry>
+    </collision>
+    <collision name="pickup_head_link_collision1">
+      <origin xyz="0.04 -0.345 0.32" rpy="0 0 0" />
+      <geometry>
+        <box size="0.042 0.038 0.21" />
+      </geometry>
+    </collision>
+    <collision name="pickup_head_link_collision2">
+      <origin xyz="0.04 0.345 0.32" rpy="0 0 0" />
+      <geometry>
+        <box size="0.042 0.038 0.21" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/pickup_head_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="pickup_head_link__00.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/pickup_head_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="pickup_head_link__01.stl">
+        <color rgba="0.16 0.22 0.28 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/pickup_head_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="pickup_head_link__02.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/pickup_head_link__03.stl" scale="1 1 1" />
+      </geometry>
+      <material name="pickup_head_link__03.stl">
+        <color rgba="0.12 0.55 0.7 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/pickup_head_link__04.stl" scale="1 1 1" />
+      </geometry>
+      <material name="pickup_head_link__04.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/pickup_head_link__05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="pickup_head_link__05.stl">
+        <color rgba="0.25 0.62 0.37 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/pickup_head_link__06.stl" scale="1 1 1" />
+      </geometry>
+      <material name="pickup_head_link__06.stl">
+        <color rgba="0.98 0.47 0.12 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="support_blade_link">
+    <inertial>
+      <origin xyz="0.183022715 -0.0106734079 0.0227912292" rpy="0 0 0" />
+      <mass value="8" />
+      <inertia ixx="0.2199173333333333" iyy="0.3130833333333334" izz="0.5324673333333333" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="support_blade_link_collision0">
+      <origin xyz="0.1905 0 0.021" rpy="0 0 0" />
+      <geometry>
+        <box size="0.447 0.42 0.008" />
+      </geometry>
+    </collision>
+    <collision name="support_blade_link_collision1">
+      <origin xyz="0.177 0 0.0275" rpy="0 0 0" />
+      <geometry>
+        <box size="0.474 0.42 0.005" />
+      </geometry>
+    </collision>
+    <collision name="support_blade_link_collision2">
+      <origin xyz="0.19 0 0.0305" rpy="0 0 0" />
+      <geometry>
+        <box size="0.47 0.415 0.001" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/support_blade_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="support_blade_link__00.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/support_blade_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="support_blade_link__01.stl">
+        <color rgba="0.89 0.92 0.94 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/support_blade_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="support_blade_link__02.stl">
+        <color rgba="0.1 0.13 0.17 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/support_blade_link__03.stl" scale="1 1 1" />
+      </geometry>
+      <material name="support_blade_link__03.stl">
+        <color rgba="0.98 0.47 0.12 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/support_blade_link__04.stl" scale="1 1 1" />
+      </geometry>
+      <material name="support_blade_link__04.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/support_blade_link__05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="support_blade_link__05.stl">
+        <color rgba="0.82 0.86 0.91 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="nose_belt_roller_link">
+    <inertial>
+      <origin xyz="-4.01055307e-19 0 -9.66174971e-19" rpy="0 0 0" />
+      <mass value="0.6" />
+      <inertia ixx="0.008499999999999999" iyy="2.56e-05" izz="0.008499999999999999" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/nose_belt_roller_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="nose_belt_roller_link__00.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="jaw_frame_link">
+    <inertial>
+      <origin xyz="0.254447901 -0.00204725477 0.419056983" rpy="0 0 0" />
+      <mass value="8.0" />
+      <inertia ixx="0.3949441666666667" iyy="0.09715216666666666" izz="0.4764" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="jaw_frame_link_collision0">
+      <origin xyz="0.33 -0.35 0.394" rpy="0 0 0" />
+      <geometry>
+        <box size="0.23 0.028 0.032" />
+      </geometry>
+    </collision>
+    <collision name="jaw_frame_link_collision1">
+      <origin xyz="0.33 0.35 0.394" rpy="0 0 0" />
+      <geometry>
+        <box size="0.23 0.028 0.032" />
+      </geometry>
+    </collision>
+    <collision name="jaw_frame_link_collision2">
+      <origin xyz="0.26 0 0.42" rpy="0 0 0" />
+      <geometry>
+        <box size="0.02 0.76 0.02" />
+      </geometry>
+    </collision>
+    <collision name="jaw_frame_link_collision3">
+      <origin xyz="0.42 0 0.42" rpy="0 0 0" />
+      <geometry>
+        <box size="0.02 0.76 0.02" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/jaw_frame_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="jaw_frame_link__00.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/jaw_frame_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="jaw_frame_link__01.stl">
+        <color rgba="0.16 0.22 0.28 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/jaw_frame_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="jaw_frame_link__02.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/jaw_frame_link__03.stl" scale="1 1 1" />
+      </geometry>
+      <material name="jaw_frame_link__03.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/jaw_frame_link__04.stl" scale="1 1 1" />
+      </geometry>
+      <material name="jaw_frame_link__04.stl">
+        <color rgba="0.12 0.55 0.7 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/jaw_frame_link__05.stl" scale="1 1 1" />
+      </geometry>
+      <material name="jaw_frame_link__05.stl">
+        <color rgba="0.06 0.09 0.12 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/jaw_frame_link__06.stl" scale="1 1 1" />
+      </geometry>
+      <material name="jaw_frame_link__06.stl">
+        <color rgba="0.25 0.62 0.37 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="left_jaw_link">
+    <inertial>
+      <origin xyz="-2.62850113e-18 -0.0083830353 0.147081111" rpy="0 0 0" />
+      <mass value="3.8" />
+      <inertia ixx="0.06378434583333333" iyy="0.08565207916666667" izz="0.02430226666666667" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="left_jaw_link_collision0">
+      <origin xyz="0 -0.015 0.095" rpy="0 0 0" />
+      <geometry>
+        <box size="0.25 0.025 0.175" />
+      </geometry>
+    </collision>
+    <collision name="left_jaw_link_collision1">
+      <origin xyz="-0.08 0 0.28" rpy="0 0 0" />
+      <geometry>
+        <box size="0.024 0.014 0.28" />
+      </geometry>
+    </collision>
+    <collision name="left_jaw_link_collision2">
+      <origin xyz="0.08 0 0.28" rpy="0 0 0" />
+      <geometry>
+        <box size="0.024 0.014 0.28" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/left_jaw_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="left_jaw_link__00.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/left_jaw_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="left_jaw_link__01.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/left_jaw_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="left_jaw_link__02.stl">
+        <color rgba="0.16 0.22 0.28 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/left_jaw_link__03.stl" scale="1 1 1" />
+      </geometry>
+      <material name="left_jaw_link__03.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/left_jaw_link__04.stl" scale="1 1 1" />
+      </geometry>
+      <material name="left_jaw_link__04.stl">
+        <color rgba="0.24 0.68 0.62 1" />
+      </material>
+    </visual>
+  </link>
+  <link name="right_jaw_link">
+    <inertial>
+      <origin xyz="-6.61773379e-18 0.0083830353 0.147081111" rpy="0 0 0" />
+      <mass value="3.8" />
+      <inertia ixx="0.06378434583333333" iyy="0.08565207916666667" izz="0.02430226666666667" ixy="0" ixz="0" iyz="0" />
+    </inertial>
+    <collision name="right_jaw_link_collision0">
+      <origin xyz="0 0.015 0.095" rpy="0 0 0" />
+      <geometry>
+        <box size="0.25 0.025 0.175" />
+      </geometry>
+    </collision>
+    <collision name="right_jaw_link_collision1">
+      <origin xyz="-0.08 0 0.28" rpy="0 0 0" />
+      <geometry>
+        <box size="0.024 0.014 0.28" />
+      </geometry>
+    </collision>
+    <collision name="right_jaw_link_collision2">
+      <origin xyz="0.08 0 0.28" rpy="0 0 0" />
+      <geometry>
+        <box size="0.024 0.014 0.28" />
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/right_jaw_link__00.stl" scale="1 1 1" />
+      </geometry>
+      <material name="right_jaw_link__00.stl">
+        <color rgba="0.62 0.45 0.2 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/right_jaw_link__01.stl" scale="1 1 1" />
+      </geometry>
+      <material name="right_jaw_link__01.stl">
+        <color rgba="0.7 0.75 0.79 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/right_jaw_link__02.stl" scale="1 1 1" />
+      </geometry>
+      <material name="right_jaw_link__02.stl">
+        <color rgba="0.16 0.22 0.28 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/right_jaw_link__03.stl" scale="1 1 1" />
+      </geometry>
+      <material name="right_jaw_link__03.stl">
+        <color rgba="0.46 0.51 0.58 1" />
+      </material>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="package://cargo_robot_description/models/cargo_robot/meshes/right_jaw_link__04.stl" scale="1 1 1" />
+      </geometry>
+      <material name="right_jaw_link__04.stl">
+        <color rgba="0.24 0.68 0.62 1" />
+      </material>
+    </visual>
+  </link>
+  <joint name="fl_wheel_joint" type="continuous">
+    <parent link="base_link" />
+    <child link="fl_wheel_link" />
+    <origin xyz="0.36 0.29 0.075" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="10.9" velocity="5.4" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fl_roller00_joint" type="continuous">
+    <parent link="fl_wheel_link" />
+    <child link="fl_roller00_link" />
+    <origin xyz="0.061 0 0" rpy="0 0 0" />
+    <axis xyz="0 -0.707106781 -0.707106781" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fl_roller01_joint" type="continuous">
+    <parent link="fl_wheel_link" />
+    <child link="fl_roller01_link" />
+    <origin xyz="0.0528275496 0 0.0305" rpy="0 0 0" />
+    <axis xyz="0.353553391 -0.707106781 -0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fl_roller02_joint" type="continuous">
+    <parent link="fl_wheel_link" />
+    <child link="fl_roller02_link" />
+    <origin xyz="0.0305 0 0.0528275496" rpy="0 0 0" />
+    <axis xyz="0.612372436 -0.707106781 -0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fl_roller03_joint" type="continuous">
+    <parent link="fl_wheel_link" />
+    <child link="fl_roller03_link" />
+    <origin xyz="3.73517274e-18 0 0.061" rpy="0 0 0" />
+    <axis xyz="0.707106781 -0.707106781 -4.32978028e-17" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fl_roller04_joint" type="continuous">
+    <parent link="fl_wheel_link" />
+    <child link="fl_roller04_link" />
+    <origin xyz="-0.0305 0 0.0528275496" rpy="0 0 0" />
+    <axis xyz="0.612372436 -0.707106781 0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fl_roller05_joint" type="continuous">
+    <parent link="fl_wheel_link" />
+    <child link="fl_roller05_link" />
+    <origin xyz="-0.0528275496 0 0.0305" rpy="0 0 0" />
+    <axis xyz="0.353553391 -0.707106781 0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fl_roller06_joint" type="continuous">
+    <parent link="fl_wheel_link" />
+    <child link="fl_roller06_link" />
+    <origin xyz="-0.061 0 7.47034547e-18" rpy="0 0 0" />
+    <axis xyz="8.65956056e-17 -0.707106781 0.707106781" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fl_roller07_joint" type="continuous">
+    <parent link="fl_wheel_link" />
+    <child link="fl_roller07_link" />
+    <origin xyz="-0.0528275496 0 -0.0305" rpy="0 0 0" />
+    <axis xyz="-0.353553391 -0.707106781 0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fl_roller08_joint" type="continuous">
+    <parent link="fl_wheel_link" />
+    <child link="fl_roller08_link" />
+    <origin xyz="-0.0305 0 -0.0528275496" rpy="0 0 0" />
+    <axis xyz="-0.612372436 -0.707106781 0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fl_roller09_joint" type="continuous">
+    <parent link="fl_wheel_link" />
+    <child link="fl_roller09_link" />
+    <origin xyz="-1.12055182e-17 0 -0.061" rpy="0 0 0" />
+    <axis xyz="-0.707106781 -0.707106781 1.29893408e-16" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fl_roller10_joint" type="continuous">
+    <parent link="fl_wheel_link" />
+    <child link="fl_roller10_link" />
+    <origin xyz="0.0305 0 -0.0528275496" rpy="0 0 0" />
+    <axis xyz="-0.612372436 -0.707106781 -0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fl_roller11_joint" type="continuous">
+    <parent link="fl_wheel_link" />
+    <child link="fl_roller11_link" />
+    <origin xyz="0.0528275496 0 -0.0305" rpy="0 0 0" />
+    <axis xyz="-0.353553391 -0.707106781 -0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_wheel_joint" type="continuous">
+    <parent link="base_link" />
+    <child link="fr_wheel_link" />
+    <origin xyz="0.36 -0.29 0.075" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="10.9" velocity="5.4" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_roller00_joint" type="continuous">
+    <parent link="fr_wheel_link" />
+    <child link="fr_roller00_link" />
+    <origin xyz="0.061 0 0" rpy="0 0 0" />
+    <axis xyz="0 0.707106781 -0.707106781" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_roller01_joint" type="continuous">
+    <parent link="fr_wheel_link" />
+    <child link="fr_roller01_link" />
+    <origin xyz="0.0528275496 0 0.0305" rpy="0 0 0" />
+    <axis xyz="0.353553391 0.707106781 -0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_roller02_joint" type="continuous">
+    <parent link="fr_wheel_link" />
+    <child link="fr_roller02_link" />
+    <origin xyz="0.0305 0 0.0528275496" rpy="0 0 0" />
+    <axis xyz="0.612372436 0.707106781 -0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_roller03_joint" type="continuous">
+    <parent link="fr_wheel_link" />
+    <child link="fr_roller03_link" />
+    <origin xyz="3.73517274e-18 0 0.061" rpy="0 0 0" />
+    <axis xyz="0.707106781 0.707106781 -4.32978028e-17" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_roller04_joint" type="continuous">
+    <parent link="fr_wheel_link" />
+    <child link="fr_roller04_link" />
+    <origin xyz="-0.0305 0 0.0528275496" rpy="0 0 0" />
+    <axis xyz="0.612372436 0.707106781 0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_roller05_joint" type="continuous">
+    <parent link="fr_wheel_link" />
+    <child link="fr_roller05_link" />
+    <origin xyz="-0.0528275496 0 0.0305" rpy="0 0 0" />
+    <axis xyz="0.353553391 0.707106781 0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_roller06_joint" type="continuous">
+    <parent link="fr_wheel_link" />
+    <child link="fr_roller06_link" />
+    <origin xyz="-0.061 0 7.47034547e-18" rpy="0 0 0" />
+    <axis xyz="8.65956056e-17 0.707106781 0.707106781" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_roller07_joint" type="continuous">
+    <parent link="fr_wheel_link" />
+    <child link="fr_roller07_link" />
+    <origin xyz="-0.0528275496 0 -0.0305" rpy="0 0 0" />
+    <axis xyz="-0.353553391 0.707106781 0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_roller08_joint" type="continuous">
+    <parent link="fr_wheel_link" />
+    <child link="fr_roller08_link" />
+    <origin xyz="-0.0305 0 -0.0528275496" rpy="0 0 0" />
+    <axis xyz="-0.612372436 0.707106781 0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_roller09_joint" type="continuous">
+    <parent link="fr_wheel_link" />
+    <child link="fr_roller09_link" />
+    <origin xyz="-1.12055182e-17 0 -0.061" rpy="0 0 0" />
+    <axis xyz="-0.707106781 0.707106781 1.29893408e-16" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_roller10_joint" type="continuous">
+    <parent link="fr_wheel_link" />
+    <child link="fr_roller10_link" />
+    <origin xyz="0.0305 0 -0.0528275496" rpy="0 0 0" />
+    <axis xyz="-0.612372436 0.707106781 -0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="fr_roller11_joint" type="continuous">
+    <parent link="fr_wheel_link" />
+    <child link="fr_roller11_link" />
+    <origin xyz="0.0528275496 0 -0.0305" rpy="0 0 0" />
+    <axis xyz="-0.353553391 0.707106781 -0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_wheel_joint" type="continuous">
+    <parent link="base_link" />
+    <child link="rl_wheel_link" />
+    <origin xyz="-0.36 0.29 0.075" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="10.9" velocity="5.4" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_roller00_joint" type="continuous">
+    <parent link="rl_wheel_link" />
+    <child link="rl_roller00_link" />
+    <origin xyz="0.061 0 0" rpy="0 0 0" />
+    <axis xyz="0 0.707106781 -0.707106781" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_roller01_joint" type="continuous">
+    <parent link="rl_wheel_link" />
+    <child link="rl_roller01_link" />
+    <origin xyz="0.0528275496 0 0.0305" rpy="0 0 0" />
+    <axis xyz="0.353553391 0.707106781 -0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_roller02_joint" type="continuous">
+    <parent link="rl_wheel_link" />
+    <child link="rl_roller02_link" />
+    <origin xyz="0.0305 0 0.0528275496" rpy="0 0 0" />
+    <axis xyz="0.612372436 0.707106781 -0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_roller03_joint" type="continuous">
+    <parent link="rl_wheel_link" />
+    <child link="rl_roller03_link" />
+    <origin xyz="3.73517274e-18 0 0.061" rpy="0 0 0" />
+    <axis xyz="0.707106781 0.707106781 -4.32978028e-17" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_roller04_joint" type="continuous">
+    <parent link="rl_wheel_link" />
+    <child link="rl_roller04_link" />
+    <origin xyz="-0.0305 0 0.0528275496" rpy="0 0 0" />
+    <axis xyz="0.612372436 0.707106781 0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_roller05_joint" type="continuous">
+    <parent link="rl_wheel_link" />
+    <child link="rl_roller05_link" />
+    <origin xyz="-0.0528275496 0 0.0305" rpy="0 0 0" />
+    <axis xyz="0.353553391 0.707106781 0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_roller06_joint" type="continuous">
+    <parent link="rl_wheel_link" />
+    <child link="rl_roller06_link" />
+    <origin xyz="-0.061 0 7.47034547e-18" rpy="0 0 0" />
+    <axis xyz="8.65956056e-17 0.707106781 0.707106781" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_roller07_joint" type="continuous">
+    <parent link="rl_wheel_link" />
+    <child link="rl_roller07_link" />
+    <origin xyz="-0.0528275496 0 -0.0305" rpy="0 0 0" />
+    <axis xyz="-0.353553391 0.707106781 0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_roller08_joint" type="continuous">
+    <parent link="rl_wheel_link" />
+    <child link="rl_roller08_link" />
+    <origin xyz="-0.0305 0 -0.0528275496" rpy="0 0 0" />
+    <axis xyz="-0.612372436 0.707106781 0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_roller09_joint" type="continuous">
+    <parent link="rl_wheel_link" />
+    <child link="rl_roller09_link" />
+    <origin xyz="-1.12055182e-17 0 -0.061" rpy="0 0 0" />
+    <axis xyz="-0.707106781 0.707106781 1.29893408e-16" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_roller10_joint" type="continuous">
+    <parent link="rl_wheel_link" />
+    <child link="rl_roller10_link" />
+    <origin xyz="0.0305 0 -0.0528275496" rpy="0 0 0" />
+    <axis xyz="-0.612372436 0.707106781 -0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rl_roller11_joint" type="continuous">
+    <parent link="rl_wheel_link" />
+    <child link="rl_roller11_link" />
+    <origin xyz="0.0528275496 0 -0.0305" rpy="0 0 0" />
+    <axis xyz="-0.353553391 0.707106781 -0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_wheel_joint" type="continuous">
+    <parent link="base_link" />
+    <child link="rr_wheel_link" />
+    <origin xyz="-0.36 -0.29 0.075" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="10.9" velocity="5.4" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_roller00_joint" type="continuous">
+    <parent link="rr_wheel_link" />
+    <child link="rr_roller00_link" />
+    <origin xyz="0.061 0 0" rpy="0 0 0" />
+    <axis xyz="0 -0.707106781 -0.707106781" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_roller01_joint" type="continuous">
+    <parent link="rr_wheel_link" />
+    <child link="rr_roller01_link" />
+    <origin xyz="0.0528275496 0 0.0305" rpy="0 0 0" />
+    <axis xyz="0.353553391 -0.707106781 -0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_roller02_joint" type="continuous">
+    <parent link="rr_wheel_link" />
+    <child link="rr_roller02_link" />
+    <origin xyz="0.0305 0 0.0528275496" rpy="0 0 0" />
+    <axis xyz="0.612372436 -0.707106781 -0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_roller03_joint" type="continuous">
+    <parent link="rr_wheel_link" />
+    <child link="rr_roller03_link" />
+    <origin xyz="3.73517274e-18 0 0.061" rpy="0 0 0" />
+    <axis xyz="0.707106781 -0.707106781 -4.32978028e-17" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_roller04_joint" type="continuous">
+    <parent link="rr_wheel_link" />
+    <child link="rr_roller04_link" />
+    <origin xyz="-0.0305 0 0.0528275496" rpy="0 0 0" />
+    <axis xyz="0.612372436 -0.707106781 0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_roller05_joint" type="continuous">
+    <parent link="rr_wheel_link" />
+    <child link="rr_roller05_link" />
+    <origin xyz="-0.0528275496 0 0.0305" rpy="0 0 0" />
+    <axis xyz="0.353553391 -0.707106781 0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_roller06_joint" type="continuous">
+    <parent link="rr_wheel_link" />
+    <child link="rr_roller06_link" />
+    <origin xyz="-0.061 0 7.47034547e-18" rpy="0 0 0" />
+    <axis xyz="8.65956056e-17 -0.707106781 0.707106781" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_roller07_joint" type="continuous">
+    <parent link="rr_wheel_link" />
+    <child link="rr_roller07_link" />
+    <origin xyz="-0.0528275496 0 -0.0305" rpy="0 0 0" />
+    <axis xyz="-0.353553391 -0.707106781 0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_roller08_joint" type="continuous">
+    <parent link="rr_wheel_link" />
+    <child link="rr_roller08_link" />
+    <origin xyz="-0.0305 0 -0.0528275496" rpy="0 0 0" />
+    <axis xyz="-0.612372436 -0.707106781 0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_roller09_joint" type="continuous">
+    <parent link="rr_wheel_link" />
+    <child link="rr_roller09_link" />
+    <origin xyz="-1.12055182e-17 0 -0.061" rpy="0 0 0" />
+    <axis xyz="-0.707106781 -0.707106781 1.29893408e-16" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_roller10_joint" type="continuous">
+    <parent link="rr_wheel_link" />
+    <child link="rr_roller10_link" />
+    <origin xyz="0.0305 0 -0.0528275496" rpy="0 0 0" />
+    <axis xyz="-0.612372436 -0.707106781 -0.353553391" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="rr_roller11_joint" type="continuous">
+    <parent link="rr_wheel_link" />
+    <child link="rr_roller11_link" />
+    <origin xyz="0.0528275496 0 -0.0305" rpy="0 0 0" />
+    <axis xyz="-0.353553391 -0.707106781 -0.612372436" />
+    <limit effort="10" velocity="100" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="lift_height_joint" type="prismatic">
+    <parent link="base_link" />
+    <child link="lift_carrier_link" />
+    <origin xyz="0 0 0.28" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="1800" velocity="0.02" lower="0" upper="0.31" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="lower_slider_joint" type="prismatic">
+    <parent link="base_link" />
+    <child link="lower_slider_link" />
+    <origin xyz="0.319413525 0 0.16" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit effort="15000" velocity="0.1" lower="-0.309" upper="0" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="upper_slider_joint" type="prismatic">
+    <parent link="lift_carrier_link" />
+    <child link="upper_slider_link" />
+    <origin xyz="0.319413525 0 0" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit effort="15000" velocity="0.1" lower="-0.309" upper="0" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="left_up_arm_joint" type="revolute">
+    <parent link="base_link" />
+    <child link="left_up_arm_link" />
+    <origin xyz="-0.319413525 0.22 0.16" rpy="0 -0.185680506 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="10000" velocity="3" lower="-0.86" upper="0" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="left_down_arm_joint" type="revolute">
+    <parent link="lift_carrier_link" />
+    <child link="left_down_arm_link" />
+    <origin xyz="-0.319413525 0.24 0" rpy="0 0.185680506 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="10000" velocity="3" lower="0" upper="0.86" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="right_up_arm_joint" type="revolute">
+    <parent link="base_link" />
+    <child link="right_up_arm_link" />
+    <origin xyz="-0.319413525 -0.22 0.16" rpy="0 -0.185680506 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="10000" velocity="3" lower="-0.86" upper="0" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="right_down_arm_joint" type="revolute">
+    <parent link="lift_carrier_link" />
+    <child link="right_down_arm_link" />
+    <origin xyz="-0.319413525 -0.2 0" rpy="0 0.185680506 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="10000" velocity="3" lower="0" upper="0.86" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="conveyor_yaw_joint" type="revolute">
+    <parent link="lift_carrier_link" />
+    <child link="conveyor_yaw_link" />
+    <origin xyz="0 0 0.055" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="39" velocity="0.4" lower="-1.5707963267948966" upper="1.5707963267948966" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="main_belt_joint" type="continuous">
+    <parent link="conveyor_yaw_link" />
+    <child link="main_belt_roller_link" />
+    <origin xyz="-0.44 0 0.006" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="11.5" velocity="12" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="extension_joint" type="prismatic">
+    <parent link="conveyor_yaw_link" />
+    <child link="extension_link" />
+    <origin xyz="0.16 0 0" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit effort="200" velocity="0.18" lower="0" upper="0.44" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="head_z_joint" type="prismatic">
+    <parent link="extension_link" />
+    <child link="head_stage1_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="2400" velocity="0.06" lower="-0.1725" upper="0" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="head_z_follower_joint" type="prismatic">
+    <parent link="head_stage1_link" />
+    <child link="head_stage2_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="2400" velocity="0.06" lower="-0.1725" upper="0" />
+    <dynamics damping="0.05" friction="0.01" />
+    <mimic joint="head_z_joint" multiplier="1" />
+  </joint>
+  <joint name="head_mount_joint" type="fixed">
+    <parent link="head_stage2_link" />
+    <child link="pickup_head_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+  </joint>
+  <joint name="support_blade_joint" type="prismatic">
+    <parent link="pickup_head_link" />
+    <child link="support_blade_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="1 0 0" />
+    <limit effort="300" velocity="0.18" lower="-0.56" upper="0" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="nose_belt_joint" type="continuous">
+    <parent link="support_blade_link" />
+    <child link="nose_belt_roller_link" />
+    <origin xyz="0.425 0 0.022" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="5.2" velocity="40" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="jaw_lift_joint" type="prismatic">
+    <parent link="pickup_head_link" />
+    <child link="jaw_frame_link" />
+    <origin xyz="0 0 0" rpy="0 0 0" />
+    <axis xyz="0 0 1" />
+    <limit effort="1200" velocity="0.04" lower="0" upper="0.035" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="left_jaw_joint" type="prismatic">
+    <parent link="jaw_frame_link" />
+    <child link="left_jaw_link" />
+    <origin xyz="0.34 0.3275 0.005" rpy="0 0 0" />
+    <axis xyz="0 -1 0" />
+    <limit effort="450" velocity="0.08" lower="0" upper="0.22" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+  <joint name="right_jaw_joint" type="prismatic">
+    <parent link="jaw_frame_link" />
+    <child link="right_jaw_link" />
+    <origin xyz="0.34 -0.3275 0.005" rpy="0 0 0" />
+    <axis xyz="0 1 0" />
+    <limit effort="450" velocity="0.08" lower="0" upper="0.22" />
+    <dynamics damping="0.05" friction="0.01" />
+  </joint>
+</robot>

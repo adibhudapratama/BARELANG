@@ -1,0 +1,321 @@
+{
+  "meshes": [
+    {
+      "name": "door_0",
+      "group": "door",
+      "color": [
+        0.38,
+        0.43,
+        0.46
+      ],
+      "mesh": "models/aircraft_hold/meshes/door_0.stl",
+      "parts": 2
+    },
+    {
+      "name": "door_1",
+      "group": "door",
+      "color": [
+        0.52,
+        0.56,
+        0.6
+      ],
+      "mesh": "models/aircraft_hold/meshes/door_1.stl",
+      "parts": 2
+    },
+    {
+      "name": "door_2",
+      "group": "door",
+      "color": [
+        0.83,
+        0.85,
+        0.84
+      ],
+      "mesh": "models/aircraft_hold/meshes/door_2.stl",
+      "parts": 1
+    },
+    {
+      "name": "far_wall_0",
+      "group": "far_wall",
+      "color": [
+        0.35,
+        0.4,
+        0.43
+      ],
+      "mesh": "models/aircraft_hold/meshes/far_wall_0.stl",
+      "parts": 18
+    },
+    {
+      "name": "far_wall_1",
+      "group": "far_wall",
+      "color": [
+        0.65,
+        0.68,
+        0.7
+      ],
+      "mesh": "models/aircraft_hold/meshes/far_wall_1.stl",
+      "parts": 72
+    },
+    {
+      "name": "far_wall_2",
+      "group": "far_wall",
+      "color": [
+        0.76,
+        0.79,
+        0.78
+      ],
+      "mesh": "models/aircraft_hold/meshes/far_wall_2.stl",
+      "parts": 1
+    },
+    {
+      "name": "floor_0",
+      "group": "floor",
+      "color": [
+        0.08,
+        0.09,
+        0.1
+      ],
+      "mesh": "models/aircraft_hold/meshes/floor_0.stl",
+      "parts": 48
+    },
+    {
+      "name": "floor_1",
+      "group": "floor",
+      "color": [
+        0.13,
+        0.16,
+        0.18
+      ],
+      "mesh": "models/aircraft_hold/meshes/floor_1.stl",
+      "parts": 2
+    },
+    {
+      "name": "floor_2",
+      "group": "floor",
+      "color": [
+        0.17,
+        0.19,
+        0.2
+      ],
+      "mesh": "models/aircraft_hold/meshes/floor_2.stl",
+      "parts": 144
+    },
+    {
+      "name": "floor_3",
+      "group": "floor",
+      "color": [
+        0.35,
+        0.4,
+        0.44
+      ],
+      "mesh": "models/aircraft_hold/meshes/floor_3.stl",
+      "parts": 1
+    },
+    {
+      "name": "floor_4",
+      "group": "floor",
+      "color": [
+        0.46,
+        0.49,
+        0.51
+      ],
+      "mesh": "models/aircraft_hold/meshes/floor_4.stl",
+      "parts": 20
+    },
+    {
+      "name": "floor_5",
+      "group": "floor",
+      "color": [
+        0.48500000000000004,
+        0.49,
+        0.51
+      ],
+      "mesh": "models/aircraft_hold/meshes/floor_5.stl",
+      "parts": 16
+    },
+    {
+      "name": "floor_6",
+      "group": "floor",
+      "color": [
+        0.65,
+        0.68,
+        0.7
+      ],
+      "mesh": "models/aircraft_hold/meshes/floor_6.stl",
+      "parts": 48
+    },
+    {
+      "name": "floor_7",
+      "group": "floor",
+      "color": [
+        0.68,
+        0.7,
+        0.7
+      ],
+      "mesh": "models/aircraft_hold/meshes/floor_7.stl",
+      "parts": 1
+    },
+    {
+      "name": "floor_8",
+      "group": "floor",
+      "color": [
+        0.97,
+        0.69,
+        0.12
+      ],
+      "mesh": "models/aircraft_hold/meshes/floor_8.stl",
+      "parts": 1
+    },
+    {
+      "name": "front_wall_0",
+      "group": "front_wall",
+      "color": [
+        0.38,
+        0.43,
+        0.46
+      ],
+      "mesh": "models/aircraft_hold/meshes/front_wall_0.stl",
+      "parts": 5
+    },
+    {
+      "name": "front_wall_1",
+      "group": "front_wall",
+      "color": [
+        0.72,
+        0.76,
+        0.76
+      ],
+      "mesh": "models/aircraft_hold/meshes/front_wall_1.stl",
+      "parts": 1
+    },
+    {
+      "name": "near_wall_0",
+      "group": "near_wall",
+      "color": [
+        0.12,
+        0.2,
+        0.25
+      ],
+      "mesh": "models/aircraft_hold/meshes/near_wall_0.stl",
+      "parts": 1
+    },
+    {
+      "name": "near_wall_1",
+      "group": "near_wall",
+      "color": [
+        0.35,
+        0.4,
+        0.43
+      ],
+      "mesh": "models/aircraft_hold/meshes/near_wall_1.stl",
+      "parts": 13
+    },
+    {
+      "name": "near_wall_2",
+      "group": "near_wall",
+      "color": [
+        0.36,
+        0.42,
+        0.46
+      ],
+      "mesh": "models/aircraft_hold/meshes/near_wall_2.stl",
+      "parts": 3
+    },
+    {
+      "name": "near_wall_3",
+      "group": "near_wall",
+      "color": [
+        0.65,
+        0.68,
+        0.7
+      ],
+      "mesh": "models/aircraft_hold/meshes/near_wall_3.stl",
+      "parts": 52
+    },
+    {
+      "name": "near_wall_4",
+      "group": "near_wall",
+      "color": [
+        0.76,
+        0.79,
+        0.78
+      ],
+      "mesh": "models/aircraft_hold/meshes/near_wall_4.stl",
+      "parts": 3
+    },
+    {
+      "name": "rear_wall_0",
+      "group": "rear_wall",
+      "color": [
+        0.38,
+        0.43,
+        0.46
+      ],
+      "mesh": "models/aircraft_hold/meshes/rear_wall_0.stl",
+      "parts": 5
+    },
+    {
+      "name": "rear_wall_1",
+      "group": "rear_wall",
+      "color": [
+        0.72,
+        0.76,
+        0.76
+      ],
+      "mesh": "models/aircraft_hold/meshes/rear_wall_1.stl",
+      "parts": 1
+    },
+    {
+      "name": "roof_0",
+      "group": "roof",
+      "color": [
+        0.24,
+        0.29,
+        0.31
+      ],
+      "mesh": "models/aircraft_hold/meshes/roof_0.stl",
+      "parts": 10
+    },
+    {
+      "name": "roof_1",
+      "group": "roof",
+      "color": [
+        0.36,
+        0.41,
+        0.44
+      ],
+      "mesh": "models/aircraft_hold/meshes/roof_1.stl",
+      "parts": 9
+    },
+    {
+      "name": "roof_2",
+      "group": "roof",
+      "color": [
+        0.78,
+        0.8,
+        0.79
+      ],
+      "mesh": "models/aircraft_hold/meshes/roof_2.stl",
+      "parts": 9
+    },
+    {
+      "name": "roof_3",
+      "group": "roof",
+      "color": [
+        0.95,
+        0.98,
+        1
+      ],
+      "mesh": "models/aircraft_hold/meshes/roof_3.stl",
+      "parts": 10
+    }
+  ],
+  "dimensions": {
+    "length_m": 4.5,
+    "floor_width_m": 2.2,
+    "height_m": 1.2,
+    "door_width_m": 1.3,
+    "door_height_m": 1.05
+  },
+  "parts": 499,
+  "oem_aircraft": false
+}

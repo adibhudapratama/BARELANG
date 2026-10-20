@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>cargo_robot_description</name><version>4.0.0</version>
+  <description>Side-door mecanum scissor-lift baggage shuttle with direct floor stacking.</description>
+  <maintainer email="maintainer@example.invalid">Cargo robot project</maintainer>
+  <license>MIT</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>gz_sim_vendor</depend><depend>gz_transport_vendor</depend><depend>gz_plugin_vendor</depend>
+  <exec_depend>rclpy</exec_depend><exec_depend>std_msgs</exec_depend><exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend><exec_depend>rosgraph_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend><exec_depend>ros_gz_bridge</exec_depend><exec_depend>ros_gz_sim</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend><exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>launch_ros</exec_depend><exec_depend>rviz2</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

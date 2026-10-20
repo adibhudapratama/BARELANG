@@ -1,0 +1,18 @@
+[
+  {
+    "file": "Bagasi_Pesawat_Generic_Cutaway.step",
+    "bytes": 8675342,
+    "solids": 378,
+    "valid": true,
+    "unit": "mm",
+    "fresh_process_import": true
+  },
+  {
+    "file": "Bagasi_Pesawat_Generic_Full.step",
+    "bytes": 16338209,
+    "solids": 499,
+    "valid": true,
+    "unit": "mm",
+    "fresh_process_import": true
+  }
+]
